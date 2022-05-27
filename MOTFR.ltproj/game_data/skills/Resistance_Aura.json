@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Resistance_Aura",
+        "name": "Resistance Aura",
+        "desc": "Aura. Grants allies RES +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            5
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

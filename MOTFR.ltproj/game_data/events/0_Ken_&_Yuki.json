@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Ken & Yuki",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"Ken\" and unit2.nid == \"Yuki\") or (unit2.nid == \"Ken\" and unit.nid == \"Yuki\")",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Ken",
+                    "Left",
+                    "Yuki",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ken",
+                    "The chief says yer one of his newest rookiest.|He sees great potential in ya."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "He does?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ken",
+                    "Aye!|But it's time ya showed it to me, too!|I wanna see what yer made of!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Alright.|Sorry, I don't know how to hold back!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ken",
+                    "... Wait, what?"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Ken",
+                    "Yuki"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

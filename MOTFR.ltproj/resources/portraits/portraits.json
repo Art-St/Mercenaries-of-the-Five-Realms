@@ -1,0 +1,290 @@
+[
+    {
+        "nid": "Man1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Man2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Man3",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Woman1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Woman2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "OldMan1",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "SoldierBlue",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "SoldierRed",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "AlicePortrait",
+        "blinking_offset": [
+            20,
+            32
+        ],
+        "smiling_offset": [
+            12,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Bandit1Portrait",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Bandit2Portrait",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Woman2Portrait",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Jay",
+        "blinking_offset": [
+            24,
+            43
+        ],
+        "smiling_offset": [
+            18,
+            58
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zelda",
+        "blinking_offset": [
+            26,
+            36
+        ],
+        "smiling_offset": [
+            26,
+            53
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Art",
+        "blinking_offset": [
+            23,
+            26
+        ],
+        "smiling_offset": [
+            21,
+            43
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "vulprix",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Knight Girl Alt1 (Sphealnuke)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Margot",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Rebecca",
+        "blinking_offset": [
+            30,
+            40
+        ],
+        "smiling_offset": [
+            29,
+            57
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Yuki",
+        "blinking_offset": [
+            33,
+            33
+        ],
+        "smiling_offset": [
+            20,
+            50
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wrath",
+        "blinking_offset": [
+            25,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ken",
+        "blinking_offset": [
+            24,
+            25
+        ],
+        "smiling_offset": [
+            16,
+            41
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sagitta",
+        "blinking_offset": [
+            27,
+            30
+        ],
+        "smiling_offset": [
+            23,
+            46
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Red",
+        "blinking_offset": [
+            26,
+            25
+        ],
+        "smiling_offset": [
+            19,
+            42
+        ],
+        "info_offset": 0
+    }
+]

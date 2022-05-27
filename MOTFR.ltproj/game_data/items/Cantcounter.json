@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Cantcounter",
+        "name": "Cantcounter",
+        "desc": "Something something you shouldn't see this",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            30,
+            11
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                3
+            ]
+        ]
+    }
+]

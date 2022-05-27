@@ -1,0 +1,52 @@
+[
+    {
+        "name": "6A Yuki's Victory",
+        "trigger": "level_end",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TownSunset"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yuki",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Very well!|I'm glad you came out on top in the end."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Thank you!"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

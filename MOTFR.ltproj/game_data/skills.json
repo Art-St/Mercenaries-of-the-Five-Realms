@@ -1,0 +1,4736 @@
+[
+    {
+        "nid": "Canto",
+        "name": "Canto",
+        "desc": "Can move again after certain actions.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canto",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fort",
+        "name": "Fort",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.2
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Throne",
+        "name": "Throne",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.10000000000000002
+            ],
+            [
+                "avoid",
+                30
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Forest",
+        "name": "Forest",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Mountain",
+        "name": "Mountain",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                30
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Peak",
+        "name": "Peak",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                40
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Avoid10",
+        "name": "Avoid10",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
+        "nid": "NoAvoid",
+        "name": "NoAvoid",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                1000
+            ]
+        ]
+    },
+    {
+        "nid": "Avoid5",
+        "name": "Avoid5",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Flying",
+        "name": "Flying",
+        "desc": "Can fly.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "ignore_terrain",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Feat",
+        "name": "Feat",
+        "desc": "Placeholder for feats",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Strength +5",
+        "name": "Strength +5",
+        "desc": "Grants STR +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance +5",
+        "name": "Resistance +5",
+        "desc": "Grants RES +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Defense +5",
+        "name": "Defense +5",
+        "desc": "Grants DEF +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Speed +5",
+        "name": "Speed +5",
+        "desc": "Grants SPD +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            10
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Skill +5",
+        "name": "Skill +5",
+        "desc": "Grants SKL +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            7
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Luck +5",
+        "name": "Luck +5",
+        "desc": "Grants LCK +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Dragonstone",
+        "name": "Dragonstone",
+        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        12
+                    ],
+                    [
+                        "SKL",
+                        12
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "RES",
+                        20
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Poisoned",
+        "name": "Poisoned",
+        "desc": "Inflicts -2 to all stats.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                6
+            ],
+            [
+                "gba_poison",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Resist+",
+        "name": "Resist+",
+        "desc": "Grants additional RES.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "RES",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stoneskin",
+        "name": "Stoneskin",
+        "desc": "Take half damage but inflicts -2 SPD.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            7
+        ],
+        "components": [
+            [
+                "time",
+                4
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stunned",
+        "name": "Stunned",
+        "desc": "Unit cannot act.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sleep",
+        "name": "Sleep",
+        "desc": "Unit is asleep.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_items",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Petrify",
+        "name": "Petrify",
+        "desc": "Unit is petrified. Cannot avoid enemy attacks and suffers -30 dodge.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            10
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                -30
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    65,
+                    65,
+                    65
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Unit is weighed down with a traveler.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "SKL",
+                        0.5
+                    ],
+                    [
+                        "SPD",
+                        0.5
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Steal",
+        "name": "Steal",
+        "desc": "Can steal items from enemies with lower speed.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Steal"
+            ],
+            [
+                "sight_range_bonus",
+                3
+            ]
+        ]
+    },
+    {
+        "nid": "Locktouch",
+        "name": "Locktouch",
+        "desc": "Unit can opened locks without a key.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "locktouch",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Crit +30",
+        "name": "Crit +30",
+        "desc": "Grants +30 Critical change",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                30
+            ]
+        ]
+    },
+    {
+        "nid": "Crit +15",
+        "name": "Crit +15",
+        "desc": "Grants +15 Critical change",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Anticrit",
+        "name": "Anticrit",
+        "desc": "Grants immunity to critical hits.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "crit_avoid",
+                1000
+            ]
+        ]
+    },
+    {
+        "nid": "Wretched Air",
+        "name": "Wretched Air",
+        "desc": "Grants STR +10, SKL +10, DEF +10, RES +10.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        10
+                    ],
+                    [
+                        "RES",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Demon Light",
+        "name": "Demon Light",
+        "desc": "Grants MAG +10, SKL +10, LCK +10, DEF +10, RES +15.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        10
+                    ],
+                    [
+                        "RES",
+                        15
+                    ],
+                    [
+                        "LCK",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Ravager",
+        "name": "Ravager",
+        "desc": "Grants STR +15, SKL +15, DEF +15, RES +15.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        15
+                    ],
+                    [
+                        "SKL",
+                        15
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "RES",
+                        15
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Silence",
+        "name": "Silence",
+        "desc": "Unit cannot use magic.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_magic_items",
+                null
+            ],
+            [
+                "time",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Berserk",
+        "name": "Berserk",
+        "desc": "Unit is confused and can no longer tell friend from foe.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                5
+            ],
+            [
+                "ignore_alliances",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "change_ai",
+                "Pursue"
+            ]
+        ]
+    },
+    {
+        "nid": "Sword Hit +10",
+        "name": "Sword Hit +10",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ]
+        ]
+    },
+    {
+        "nid": "Torch",
+        "name": "Torch",
+        "desc": "Grants increased sight range in fog of war.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            5
+        ],
+        "components": [
+            [
+                "decreasing_sight_range_bonus",
+                4
+            ],
+            [
+                "time",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "Void Curse",
+        "name": "Void Curse",
+        "desc": "No exp gained for attacking this unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "enemy_exp_multiplier",
+                0
+            ]
+        ]
+    },
+    {
+        "nid": "Inspiration",
+        "name": "Inspiration",
+        "desc": "Aura - Grants +1 damage and +1 resist to allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Inspiration_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Inspiration_child",
+        "name": "Inspired",
+        "desc": "Grants +1 damage and +1 resist.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "damage",
+                1
+            ],
+            [
+                "resist",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Leader's Ward",
+        "name": "Leader's Ward",
+        "desc": "Reduces damage taken by 50% if HP is full. \nGrants Leader's Protection to allies within 2 spaces.",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            31,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Leader's Protection"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "dynamic_resist",
+                "1 if unit.get_max_hp() == unit.get_hp() else 0.5"
+            ]
+        ]
+    },
+    {
+        "nid": "Leader's Protection",
+        "name": "Leader's Protection",
+        "desc": "Reduces damage taken by 20% if HP is full.",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            31,
+            11
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "0.8 if unit.stats['HP'] == unit.get_hp() else 1"
+            ]
+        ]
+    },
+    {
+        "nid": "Regeneration",
+        "name": "Regeneration",
+        "desc": "Regenerate HP every turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.3
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "upkeep_animation",
+                "MapSmallHealTrans"
+            ]
+        ]
+    },
+    {
+        "nid": "tile_Regeneration",
+        "name": "Regeneration",
+        "desc": "Regenerate a fifth of max HP every turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.2
+            ]
+        ]
+    },
+    {
+        "nid": "Poison",
+        "name": "Poisoned",
+        "desc": "All stats lowered by 2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "unit_anim",
+                "MapPoison"
+            ],
+            [
+                "time",
+                6
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Resistant",
+        "name": "Resistant",
+        "desc": "Grants increased magical resistance.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "upkeep_stat_change",
+                []
+            ],
+            [
+                "time",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Barkskin",
+        "name": "Barkskin",
+        "desc": "Grants DEF/RES +6, but inflicts SPD/MOV -2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Stun",
+        "name": "Stun",
+        "desc": "Paralyzed. Cannot move, attack, or counterattack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            7
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapStun"
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fortune",
+        "name": "Good Fortune",
+        "desc": "Grants hit +50.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            2
+        ],
+        "components": [
+            [
+                "hit",
+                50
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Clear",
+        "name": "Clear",
+        "desc": "Removes most negative statuses.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    },
+    {
+        "nid": "Reflect",
+        "name": "Reflect",
+        "desc": "Negative statuses are reflected back at the attacker.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            7
+        ],
+        "components": [
+            [
+                "reflect_status",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Restore",
+        "name": "Skill Restore",
+        "desc": "Fully charges all activated skills.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    },
+    {
+        "nid": "Dazzle",
+        "name": "Dazzled",
+        "desc": "Inflicts Hit -10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "hit",
+                -10
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Blinded",
+        "name": "Blinded",
+        "desc": "Inflicts Hit -100.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            6
+        ],
+        "components": [
+            [
+                "hit",
+                -100
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapBerserk"
+            ]
+        ]
+    },
+    {
+        "nid": "Chill",
+        "name": "Chilled",
+        "desc": "Inflicts Avoid -10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "avoid",
+                -10
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Frostbite",
+        "name": "Frostbite",
+        "desc": "Inflicts SPD -3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapFrostbite"
+            ]
+        ]
+    },
+    {
+        "nid": "Starcrossed",
+        "name": "Starcrossed",
+        "desc": "Inflicts Hit/Avo -15. Also inflicts Hit/Avo -20 on nearby enemies",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "aura",
+                "Canto"
+            ],
+            [
+                "hit",
+                -15
+            ],
+            [
+                "avoid",
+                -15
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Aura_Starcrossed_Child",
+        "name": "Starcrossed",
+        "desc": "Inflicts Hit/Avo -20.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hit",
+                -20
+            ],
+            [
+                "avoid",
+                -20
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "leaderAura",
+        "name": "Leadership Aura",
+        "desc": "Reduces damage taken by unit and nearby allies when HP is full.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "aura",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ]
+        ]
+    },
+    {
+        "nid": "leaderAuraChild",
+        "name": "Leader's Ward",
+        "desc": "Reduces damage taken when HP is full.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ]
+        ]
+    },
+    {
+        "nid": "blaze",
+        "name": "Blaze",
+        "desc": "If unit's HP is lower than 50%, grants Hit+10 and Mt+5 during combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "10 if (Utility.lt(self.currenthp, self.stats['HP']/2.)) else 0"
+            ],
+            [
+                "dynamic_damage",
+                "5 if (Utility.lt(self.currenthp, self.stats['HP']/2.)) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Armsward",
+        "name": "Armsward",
+        "desc": "Reduces damage taken by half this unit's STR.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "self.stats['STR']/2"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "magicWard",
+        "name": "Magic Ward",
+        "desc": "Protection granted by the Magic Rondache",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "heavyArmor",
+        "name": "Heavy Armor",
+        "desc": "Protection granted by the Onyx Bulwark",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.7
+            ],
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "magicNegationL",
+        "name": "Light Aegis",
+        "desc": "Protection granted by the Light Aegis",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "magicNegationA",
+        "name": "Earth Aegis",
+        "desc": "Protection granted by the Magic Rondache",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "magicNegationD",
+        "name": "Dark Aegis",
+        "desc": "Protection granted by the Magic Rondache",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Wisdom",
+        "name": "Force of Wisdom",
+        "desc": "Combat Art. Increases damage dealt by this unit's magical power",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "automatic_combat_art",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WizMod",
+        "name": "Force of Wisdom",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "self.stats['MAG']*2.5"
+            ],
+            [
+                "lost_on_end_combat",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Charm",
+        "name": "Charm",
+        "desc": "Grants allied units within 3 spaces Hit +10, Dmg +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Aura_Charm_Child",
+        "name": "Charm",
+        "desc": "Increases Damage dealt and accuracy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hit",
+                10
+            ],
+            [
+                "damage",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "Clairvoyance",
+        "name": "Clairvoyance",
+        "desc": "Crit+5. Grants Hit/Avo+10 during combat against Tome users",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "crit",
+                5
+            ],
+            [
+                "dynamic_accuracy",
+                "10 if (target.getMainWeapon() and target.getMainWeapon().TYPE in ('Light', 'Anima', 'Dark')) else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "10 if (target.getMainWeapon() and target.getMainWeapon().TYPE in ('Light', 'Anima', 'Dark')) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Seer",
+        "name": "Seer",
+        "desc": "If foe initiates combat, grants Hit/Avoid +20.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "20 if (mode == 'Defense') else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "20 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "hastemarchAura",
+        "name": "Hastermarch",
+        "desc": "Adjacent Allies with HP>=50% can move one extra space.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "hastemarchAuraChild",
+        "name": "Hastemarch",
+        "desc": "Movement +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": []
+    },
+    {
+        "nid": "vietnamAura",
+        "name": "Veteran's Guidance",
+        "desc": "Grants Def/Res + 2 and Hit/Avo + 10 to allies within 2 spaces.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "aura",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "vietnamAuraChild",
+        "name": "Veteran's Pointers",
+        "desc": "Grants Def/Res + 2 and Hit/Avo + 10. Listen to your elders.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
+        "nid": "trickDebuffAura",
+        "name": "Foul Trickery",
+        "desc": "Inflicts Str/Mag/Def/Res -3 on foes within 3 spaces.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "trickDebuffAuraChild",
+        "name": "Foul Trickery",
+        "desc": "Str/Mag/Def/Res -3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "berserkBlow",
+        "name": "Berserk Blow",
+        "desc": "If unit initiates combat, grants Mt+10, but increases damage taken by 50%.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "10 if (mode == 'Attack') else 0"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fStrength +2",
+        "name": "Strength +2",
+        "desc": "Grants STR +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "fMagic +2",
+        "name": "Magic +2",
+        "desc": "Grants MAG +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fSkill +3",
+        "name": "Skill +3",
+        "desc": "Grants SKL +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fSpeed +2",
+        "name": "Speed +2",
+        "desc": "Grants SPD +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fDefense +2",
+        "name": "Defense +2",
+        "desc": "Grants DEF +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fResistance +2",
+        "name": "Resistance +2",
+        "desc": "Grants RES +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fConstitution +3",
+        "name": "Constitution +3",
+        "desc": "Grants CON +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fMovement +1",
+        "name": "Movement +1",
+        "desc": "Grants MOV +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fVitae",
+        "name": "Vitae",
+        "desc": "Grants HP + 10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "fFortuna",
+        "name": "Fortuna",
+        "desc": "Grants LCK +4.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Speed +2",
+        "name": "Speed +2",
+        "desc": "Grants SPD +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Speed -2",
+        "name": "Speed -2",
+        "desc": "Inflicts SPD -2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Defense +2",
+        "name": "Defense +2",
+        "desc": "Grants DEF +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance +2",
+        "name": "Resistance +2",
+        "desc": "Grants RES +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance +10",
+        "name": "Resistance +10",
+        "desc": "Grants RES +10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            10
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Underdog",
+        "name": "Underdog",
+        "desc": "Grants Damage +2 and Damage Taken -2 against enemies with greater max HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "2 if (Utility.lt(self.stats['HP'], target.stats['HP'])) else 0"
+            ],
+            [
+                "dynamic_resist",
+                "2 if (Utility.lt(target.stats['HP'], self.stats['HP'])) else 0"
+            ]
+        ]
+    },
+    {
+        "nid": "Luck +10",
+        "name": "Luck +10",
+        "desc": "Gain LCK +10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Merchant",
+        "name": "Merchant",
+        "desc": "Can buy items at reduced prices.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            9
+        ],
+        "components": [
+            [
+                "change_buy_price",
+                0.5
+            ]
+        ]
+    },
+    {
+        "nid": "Swordbreaker",
+        "name": "Swordbreaker",
+        "desc": "Grants Hit/Avoid +30 against enemies wielding Swords.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            9
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "30 if (self.getMainWeapon() and self.getMainWeapon().TYPE == 'Sword') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "30 if (target.getMainWeapon() and target.getMainWeapon().TYPE == 'Sword') else 0"
+            ]
+        ]
+    },
+    {
+        "nid": "Lancebreaker",
+        "name": "Lancebreaker",
+        "desc": "Grants Hit/Avoid +30 against enemies wielding Lances.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            7
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "30 if (self.getMainWeapon() and self.getMainWeapon().TYPE == 'Lance') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "30 if (target.getMainWeapon() and target.getMainWeapon().TYPE == 'Lance') else 0"
+            ]
+        ]
+    },
+    {
+        "nid": "Axebreaker",
+        "name": "Axebreaker",
+        "desc": "Grants Hit/Avoid +30 against enemies wielding Axes.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            8
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "30 if (self.getMainWeapon() and self.getMainWeapon().TYPE == 'Axe') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "30 if (target.getMainWeapon() and target.getMainWeapon().TYPE == 'Axe') else 0"
+            ]
+        ]
+    },
+    {
+        "nid": "Defender_Status",
+        "name": "Defender",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.8
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Aries_Status",
+        "name": "Aries",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Taurus_Status",
+        "name": "Taurus",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Leo_Status",
+        "name": "Leo",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Scorpio_Status",
+        "name": "Scorpio",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Cancer_Status",
+        "name": "Cancer",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Capricorn_Status",
+        "name": "Capricorn",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "dynamic_damage",
+                "11 if Utility.lt(self.stats['MAG'], 3) else 0"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Libra_Status",
+        "name": "Libra",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sapheart_Status",
+        "name": "Sapheart",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "self.stats['STR']"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Staffheal",
+        "name": "Passive Regen",
+        "desc": "Recover some HP while holding Swordstaff",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "regeneration",
+                0.2
+            ],
+            [
+                "upkeep_animation",
+                "MapSmallHealTrans"
+            ]
+        ]
+    },
+    {
+        "nid": "Aura_Staffheal_Child",
+        "name": "Passive Regen",
+        "desc": "Regain some HP by being close to Swordstaff",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.2
+            ],
+            [
+                "upkeep_animation",
+                "MapSmallHealTrans"
+            ]
+        ]
+    },
+    {
+        "nid": "Imperial Wards",
+        "name": "Imperial Wards",
+        "desc": "Grants STR/MAG/SKL/SPD/DEF/RES +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Canto (1)",
+        "name": "Canto",
+        "desc": "Can move again after taking certain actions.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "canto",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Canto_Plus",
+        "name": "Canto+",
+        "desc": "Can move again after taking an action.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            10
+        ],
+        "components": [
+            [
+                "canto_plus",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue (1)",
+        "name": "Rescuing",
+        "desc": "Halves SKL/SPD.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                []
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "rallyDefRes",
+        "name": "Rally",
+        "desc": "Command Skill. Grants Def/Res+2 to an adjacent ally for a turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "cmdSkillRally1"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "rallyChild1",
+        "name": "Rallied",
+        "desc": "Granted Def/Res+2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Rally",
+        "name": "Rally",
+        "desc": "Activated. Grant all allies within a 3 tile radius +4 to all stats for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Rally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Locktouch (1)",
+        "name": "Locktouch",
+        "desc": "Open doors and chests without a key.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "locktouch",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Savior",
+        "name": "Savior",
+        "desc": "Rescue without penalty.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "ignore_rescue_penalty",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Ghost",
+        "name": "Ghost",
+        "desc": "Move through enemy units.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "pass",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fleet_of_Foot",
+        "name": "Fleet of Foot",
+        "desc": "Ignore some terrain movement penalties.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "movement_type",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Resist_Status",
+        "name": "Resist Status",
+        "desc": "Ignore temporary status ailments after 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "resist_status",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Evasion",
+        "name": "Evasion",
+        "desc": "Area of Effect attacks always miss this unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "1000 if mode == 'splash' else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Prescience",
+        "name": "Prescience",
+        "desc": "If attacking, grants Hit/Avoid +15 and Damage +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "15 if (mode == 'Defense') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if (mode == 'Attack') else 0"
+            ],
+            [
+                "dynamic_damage",
+                "1 if (mode == 'Attack') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Patience",
+        "name": "Patience",
+        "desc": "If attacked, grants Hit/Avoid +15 and Damage +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "15 if (mode == 'Attack') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if (mode == 'Defense') else 0"
+            ],
+            [
+                "dynamic_damage",
+                "1 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Riposte",
+        "name": "Riposte",
+        "desc": "If attacked, grants Damage +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            2
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "3 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Initiative",
+        "name": "Initiative",
+        "desc": "If attacking, grants Avoid +30.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            8
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "30 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Overwhelm",
+        "name": "Overwhelm",
+        "desc": "If attacking and damage would defeat enemy, grants Hit +30.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "30 if (mode == 'Attack' and Utility.gte(self.compute_damage(target, gameStateObj, item, mode),\n            target.currenthp)\n        ) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Poise",
+        "name": "Poise",
+        "desc": "If attacking, DEF/RES +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "5 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Empowered",
+        "name": "Empowered",
+        "desc": "If attacking, Damage +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            9
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "3 if (mode == 'Attack') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Shimmer",
+        "name": "Shimmer",
+        "desc": "Grants Avoid +30 against non-adjacent attackers.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "30 if (Utility.gt(Utility.calculate_distance(self.position, target.position), 1) and mode ==\n            'Attack'\n        ) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rex_Aegis",
+        "name": "Rex Aegis",
+        "desc": "Grants Avoid +500 and Defense +100 vs. enemies more than two tiles away.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "500 if (Utility.gt(Utility.calculate_distance(self.position, target.position), 2)\n        ) else 0"
+            ],
+            [
+                "dynamic_resist",
+                "100 if (Utility.gt(Utility.calculate_distance(self.position, target.position), 2)\n        ) else 0"
+            ]
+        ]
+    },
+    {
+        "nid": "Heavy Hitter",
+        "name": "Heavy Hitter",
+        "desc": "Adds half weapon weight to damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "item.weight/2 if item.weight else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Charge",
+        "name": "Charge",
+        "desc": "Adds (distance moved - 2) this turn to damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "max(0, Utility.calculate_distance(self.position, self.previous_position) - 2) if self.position else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Focus",
+        "name": "Focus",
+        "desc": "Grants Hit/Avoid +20 if no allies are within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "20 if self.check_focus(gameStateObj) else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "20 if self.check_focus(gameStateObj) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Synergy",
+        "name": "Synergy",
+        "desc": "Grants Hit/Avoid +10 if an ally is within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            7
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "10 if not self.check_focus(gameStateObj) else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "10 if not self.check_focus(gameStateObj) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Futuresight",
+        "name": "Futuresight",
+        "desc": "Grants Hit/Avoid +30 if HP is under half.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            8
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "30 if Utility.lt(self.currenthp, self.stats['HP']/2.) else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "30 if Utility.lt(self.currenthp, self.stats['HP']/2.) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Conductance",
+        "name": "Conductance",
+        "desc": "Grants Hit +15 and Damage +1 against enemies wielding metal weapons.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "1 if (target.getMainWeapon() and target.getMainWeapon().TYPE in ('Sword', 'Lance', 'Axe')) else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if (target.getMainWeapon() and target.getMainWeapon().TYPE in ('Sword', 'Lance', 'Axe')) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle",
+        "name": "Miracle",
+        "desc": "Once per chapter, if this unit would die, instead they survive with 1 HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "miracle",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Healtouch",
+        "name": "Healtouch",
+        "desc": "Heal +5 HP when healing another.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "If 4 more attack speed than enemy, double counterattack while defending.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "can_double_on_defense",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Cleave",
+        "name": "Cleave",
+        "desc": "Combat Art. Prereq: Axe. Damages all adjacent enemy units.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Cleave_item_mod",
+        "name": "Cleave",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": []
+    },
+    {
+        "nid": "Trueshot",
+        "name": "Trueshot",
+        "desc": "Combat Art. +100 hit on next attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            9
+        ],
+        "components": [
+            [
+                "combat_art",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "trueshot_status",
+        "name": "Trueshot",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            9
+        ],
+        "components": [
+            [
+                "hit",
+                100
+            ]
+        ]
+    },
+    {
+        "nid": "Metamagic",
+        "name": "Metamagic",
+        "desc": "Automatic Art. When charged, next attack has increased area of blast +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            7
+        ],
+        "components": [
+            [
+                "automatic_combat_art",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Metamagic_Status",
+        "name": "Overcharged",
+        "desc": "Next attack or spell has increased area of effect.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            7
+        ],
+        "components": [
+            [
+                "lost_on_end_combat",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ],
+            [
+                "unit_anim",
+                "OverchargeAura"
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    248,
+                    0,
+                    248
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Activated. Push a unit one square away.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Shove"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Swap",
+        "name": "Swap",
+        "desc": "Activated. Swap position with an adjacent unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Swap"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Push",
+        "name": "Push",
+        "desc": "Activated. Pushes unit 3 spaces away.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Push"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Refresh",
+        "name": "Refresh",
+        "desc": "Activated. Adjacent unit is refreshed.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            9
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Refresh"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fade",
+        "name": "Fade",
+        "desc": "Activated. Grants Avoid +100 for 5 turns or until you next attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Fade"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Aegis",
+        "name": "Aegis",
+        "desc": "Activated. RNG: 1. Grant ally DEF/RES +15 until next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Aegis"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Revelation",
+        "name": "Revelation",
+        "desc": "Activated. RNG: 1. Grants ally Hit/Avoid +100 until next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Revelation"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Summon",
+        "name": "Invoke",
+        "desc": "Command Skill. Invokes the soul of a warrior to assist you in combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Summon"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Summon_M",
+        "name": "Summon",
+        "desc": "Command Skill. Summons a familiar to aid you.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Summon_Gargoyle"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Summon_3",
+        "name": "Summon",
+        "desc": "Command Skill. Summons a familiar to aid you.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Summon_3"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Summon_U",
+        "name": "Summon",
+        "desc": "Summons a familiar to aid you. Mana cost: 10",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Summon_Arachne"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "cost_mana",
+                10
+            ],
+            [
+                "check_mana",
+                10
+            ],
+            [
+                "gain_mana",
+                "1"
+            ]
+        ]
+    },
+    {
+        "nid": "Luna",
+        "name": "Luna",
+        "desc": "Proc. SKL%. Ignore enemy's Defense or Resistance.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "attack_proc",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Luna_proc",
+        "name": "Luna",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sol",
+        "name": "Sol",
+        "desc": "Activated. Recover HP equal to damage dealt to the enemy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "attack_proc",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sol_proc",
+        "name": "Sol",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Devil_Luck",
+        "name": "Devil's Luck",
+        "desc": "Chance to kill self -- horribly",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            8
+        ],
+        "components": [
+            [
+                "attack_proc",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Devil_proc",
+        "name": "Devil's Luck",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            8
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Vantage2",
+        "name": "Vantage",
+        "desc": "Proc. Attack first even on defense.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "defense_pre_proc",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Vantage_proc",
+        "name": "Vantage",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "vantage",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Pavise",
+        "name": "Pavise",
+        "desc": "Proc. Ignore attacker's damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "defense_proc",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Pavise_proc",
+        "name": "Pavise",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "resist",
+                500
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Adept",
+        "name": "Adept",
+        "desc": "Proc. SPD% Attack again.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Adept_proc",
+        "name": "Adept",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            10
+        ],
+        "components": []
+    },
+    {
+        "nid": "Thracia_Charge",
+        "name": "Charge",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Genealogy_Charge",
+        "name": "Charge",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Swordfaire",
+        "name": "Swordfaire",
+        "desc": "While wielding a sword, it gains the brave property.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Lancefaire",
+        "name": "Lancefaire",
+        "desc": "While wielding a lance, cannot be counterattacked.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Axefaire",
+        "name": "Axefaire",
+        "desc": "While wielding an axe, ignore half enemy's Defense or Resistance.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Longshot",
+        "name": "Longshot",
+        "desc": "While wielding a bow, attack range +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Slayer",
+        "name": "Slayer",
+        "desc": "Effective against monsters",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Celeste",
+        "name": "Celeste",
+        "desc": "Weaken enemies struck by your weapons.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Slow",
+        "name": "Slow",
+        "desc": "Slow enemies struck by your weapons.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Nosferatu",
+        "name": "Nosferatu",
+        "desc": "Damage dealt restores health.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Aura",
+        "name": "Skill Aura",
+        "desc": "Aura. Grants allies SKL +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "aura",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Defense_Aura",
+        "name": "Defense Aura",
+        "desc": "Aura. Grants allies DEF +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            4
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Resistance_Aura",
+        "name": "Resistance Aura",
+        "desc": "Aura. Grants allies RES +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            5
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Charisma",
+        "name": "Charisma",
+        "desc": "Aura. Grants allies Hit/Avoid +15.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "aura",
+                "Aura_Charm_Child"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Hex",
+        "name": "Hex",
+        "desc": "Aura. Inflicts Avoid -15 on enemies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Provoke",
+        "name": "Provoke",
+        "desc": "After battle, inflicts Hit -30 and Damage -2 when attacking other units.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            5
+        ],
+        "components": [
+            [
+                "give_status_after_combat",
+                "Provoke_Child"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "death_tether",
+                "Provoke_Child"
+            ]
+        ]
+    },
+    {
+        "nid": "Command",
+        "name": "Command",
+        "desc": "Your spells strengthen affected allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Refresh_Status",
+        "name": "Refreshed",
+        "desc": "Refreshed.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            9
+        ],
+        "components": []
+    },
+    {
+        "nid": "Rage_Status",
+        "name": "Raging",
+        "desc": "Raging. Grants STR/SKL/SPD/RES +4",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            10
+        ],
+        "components": [
+            [
+                "time",
+                3
+            ],
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Fade_Status",
+        "name": "Faded",
+        "desc": "Faded. Grants Avoid +100. Lost on attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "avoid",
+                100
+            ],
+            [
+                "lost_on_end_combat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Aegis_Status",
+        "name": "Aegis",
+        "desc": "Grants DEF/RES +15.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Revelation_Status",
+        "name": "Revelation",
+        "desc": "Grants Hit/Avoid +100.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "hit",
+                100
+            ],
+            [
+                "avoid",
+                100
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "TempFlying",
+        "name": "Flying",
+        "desc": "Grants flying.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "movement_type",
+                "Light Foot"
+            ],
+            [
+                "pass",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapFlying"
+            ]
+        ]
+    },
+    {
+        "nid": "Provoke_Child",
+        "name": "Provoked",
+        "desc": "Hit -30 and Damage -2 when attacking units other than the one provoking it.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "-2 if (target.id != status.giver_id and mode == 'Attack') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "-30 if (target.id != status.giver_id and mode == 'Attack') else 0"
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    },
+    {
+        "nid": "Command_Child",
+        "name": "Commanded",
+        "desc": "Grants Damage +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "damage",
+                5
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Slowed",
+        "name": "Slowed",
+        "desc": "Inflicts MOV -3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "Impeded",
+        "name": "Impeded",
+        "desc": "Movement reduced somewhat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "Rally_Child",
+        "name": "Rallied",
+        "desc": "Grants +4 to all stats.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Maximum HP -5",
+        "name": "Maximum HP -5",
+        "desc": "Inflicts HP -5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Movement Clause",
+        "name": "Movement Clause",
+        "desc": "Non-mounted units gain Mov +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    },
+    {
+        "nid": "Quadriga",
+        "name": "Quadriga",
+        "desc": "Grants STR/SPD/DEF+2 to unit and adjacent allies \nif there are allies adjacent.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "aura",
+                "Quadriga_Child"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "condition",
+                "True"
+            ]
+        ]
+    },
+    {
+        "nid": "Quadriga_Child",
+        "name": "Quadriga",
+        "desc": "You shouldn't see this.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Plenitude",
+        "name": "Plenitude",
+        "desc": "Combat Art. Unit restores HP equal to\nHalf of damage dealt. Unit cannot follow-up.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Plenitude_Proc"
+            ],
+            [
+                "cost_mana",
+                2
+            ],
+            [
+                "allowed_weapons",
+                "(item_system.weapon_type(unit, unit.get_weapon()) == 'Sword' or item_system.weapon_type(unit, unit.get_weapon()) == 'Lance' or item_system.weapon_type(unit, unit.get_weapon()) == 'Axe')"
+            ]
+        ]
+    },
+    {
+        "nid": "Plenitude_Proc",
+        "name": "Plenitude",
+        "desc": "",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "lifelink",
+                0.5
+            ],
+            [
+                "damage_multiplier",
+                1.5
+            ],
+            [
+                "cannot_use_magic_items",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Windsweep",
+        "name": "Windsweep",
+        "desc": "Combat Art. Unit cannot follow-up\nStuns foe for one turn. Dmg+3.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "cost_mana",
+                4
+            ],
+            [
+                "combat_art",
+                "Windsweep_proc"
+            ],
+            [
+                "check_mana",
+                4
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, unit.get_weapon()) == 'Sword' or item_system.weapon_type(unit, unit.get_weapon()) == 'Lance' or item_system.weapon_type(unit, unit.get_weapon()) == 'Axe'"
+            ]
+        ]
+    },
+    {
+        "nid": "Windsweep_proc",
+        "name": "Windsweep",
+        "desc": "",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            6
+        ],
+        "components": [
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "give_status_after_hit",
+                "Swept"
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "avoid",
+                10
+            ],
+            [
+                "cannot_use_magic_items",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Swept",
+        "name": "Swept",
+        "desc": "Struck by windsweep. Avo-10. \nCannot move until next turn.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            5,
+            47
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -10
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "lost_on_end_combat",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Curved Shot",
+        "name": "Curved Shot",
+        "desc": "",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            7,
+            48
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Curved Shot_Proc"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
+            ]
+        ]
+    },
+    {
+        "nid": "Curved Shot_Proc",
+        "name": "Curved Shot",
+        "desc": "",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            2,
+            48
+        ],
+        "components": [
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "modify_maximum_range",
+                3
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

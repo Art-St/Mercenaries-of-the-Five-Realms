@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Merchant",
+        "name": "Merchant",
+        "desc": "Can buy items at reduced prices.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            9
+        ],
+        "components": [
+            [
+                "change_buy_price",
+                0.5
+            ]
+        ]
+    }
+]

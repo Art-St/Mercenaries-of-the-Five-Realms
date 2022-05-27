@@ -1,0 +1,2457 @@
+[
+    {
+        "nid": "Placeholder",
+        "name": "Placeholder",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Art",
+        "name": "Art",
+        "desc": "A quiet and pragmatic tactician.\nAn orphan with a troubled past.",
+        "variant": "",
+        "level": 1,
+        "klass": "Grandmaster",
+        "tags": [
+            "Mage"
+        ],
+        "bases": {
+            "HP": 38,
+            "STR": 14,
+            "MAG": 13,
+            "SKL": 13,
+            "SPD": 14,
+            "LCK": 8,
+            "DEF": 14,
+            "RES": 12,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 45,
+            "MAG": 55,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 45,
+            "DEF": 50,
+            "RES": 45,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Ember",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "fFortuna"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                181
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Art",
+        "affinity": "Dark",
+        "fields": []
+    },
+    {
+        "nid": "Zelda",
+        "name": "Zelda",
+        "desc": "The fair crown princess of the empire.\nA cheerful and carefree girl.",
+        "variant": "",
+        "level": 5,
+        "klass": "LordF",
+        "tags": [
+            "Lord"
+        ],
+        "bases": {
+            "HP": 26,
+            "STR": 5,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 8,
+            "LCK": 4,
+            "DEF": 3,
+            "RES": 4,
+            "CON": 6,
+            "MOV": 5,
+            "Mana": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 55,
+            "MAG": 45,
+            "SKL": 50,
+            "SPD": 60,
+            "LCK": 55,
+            "DEF": 50,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0,
+            "Mana": 0
+        },
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "fStrength +2"
+            ],
+            [
+                1,
+                "Plenitude"
+            ],
+            [
+                1,
+                "Windsweep"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Zelda",
+        "affinity": "Light",
+        "fields": []
+    },
+    {
+        "nid": "Jay",
+        "name": "Jay",
+        "desc": "A passionate young mage from Taelnir.\nHotheaded and chaotic.",
+        "variant": "",
+        "level": 3,
+        "klass": "Mage",
+        "tags": [],
+        "bases": {
+            "HP": 24,
+            "STR": 2,
+            "MAG": 6,
+            "SKL": 5,
+            "SPD": 7,
+            "LCK": 4,
+            "DEF": 3,
+            "RES": 6,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 15,
+            "MAG": 60,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 40,
+            "DEF": 30,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Thunder",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                71
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Jay",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Yuki",
+        "name": "Yuki",
+        "desc": "A young swordswoman from Lailah.\nAspires to be a great mercenary.",
+        "variant": "Yuki",
+        "level": 1,
+        "klass": "MyrmidonF",
+        "tags": [],
+        "bases": {
+            "HP": 22,
+            "STR": 4,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 9,
+            "LCK": 3,
+            "DEF": 4,
+            "RES": 2,
+            "CON": 5,
+            "MOV": 5,
+            "Mana": 0
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 60,
+            "MAG": 1,
+            "SKL": 70,
+            "SPD": 70,
+            "LCK": 60,
+            "DEF": 35,
+            "RES": 9,
+            "CON": 0,
+            "MOV": 0,
+            "Mana": 0
+        },
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Yuki",
+        "affinity": "Water",
+        "fields": []
+    },
+    {
+        "nid": "Alice",
+        "name": "Alice",
+        "desc": "A quiet and anxious dark mage \nfrom Roselake. ",
+        "variant": "",
+        "level": 1,
+        "klass": "Shaman",
+        "tags": [
+            "Mage"
+        ],
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 3,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 5,
+            "CON": 7,
+            "MOV": 5,
+            "Mana": 0
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 0,
+            "MAG": 50,
+            "SKL": 32,
+            "SPD": 30,
+            "LCK": 20,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "Mana": 0
+        },
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                31
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "AlicePortrait",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Hoboy",
+        "name": "Hoboy",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    },
+    {
+        "nid": "Fowwest",
+        "name": "Fowwest",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Cleric",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Light",
+        "fields": []
+    },
+    {
+        "nid": "Wrath",
+        "name": "Wrath",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Berserker",
+        "tags": [],
+        "bases": {
+            "HP": 24,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 6,
+            "RES": 0,
+            "CON": 13,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 50,
+            "MAG": 0,
+            "SKL": 35,
+            "SPD": 25,
+            "LCK": 15,
+            "DEF": 10,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Personal Skills"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                181
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Wrath",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Sheonnorat",
+        "name": "Sheonnorat",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Water",
+        "fields": []
+    },
+    {
+        "nid": "Sagitta",
+        "name": "Sagitta",
+        "desc": "A farmgirl from Belhaven.\nSnarky and easily annoyed.",
+        "variant": "",
+        "level": 10,
+        "klass": "Archer",
+        "tags": [],
+        "bases": {
+            "HP": 32,
+            "STR": 12,
+            "MAG": 3,
+            "SKL": 14,
+            "SPD": 11,
+            "LCK": 4,
+            "DEF": 9,
+            "RES": 4,
+            "CON": 3,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "MAG": 30,
+            "SKL": 65,
+            "SPD": 45,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "TrainerBw",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                181
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Sagitta",
+        "affinity": "Earth",
+        "fields": []
+    },
+    {
+        "nid": "Ken",
+        "name": "Ken",
+        "desc": "Kindhearted and brave man from Belhaven. \nSpends too much time in the sun",
+        "variant": null,
+        "level": 12,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 14,
+            "MAG": 0,
+            "SKL": 12,
+            "SPD": 13,
+            "LCK": 5,
+            "DEF": 9,
+            "RES": 3,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 60,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 50,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "TrainerSwd",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Ken",
+        "affinity": "Water",
+        "fields": []
+    },
+    {
+        "nid": "Capone",
+        "name": "Capone",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Dark",
+        "fields": []
+    },
+    {
+        "nid": "Mikhail",
+        "name": "Mikhail",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Delmira",
+        "name": "Delmira",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Wind",
+        "fields": []
+    },
+    {
+        "nid": "Red",
+        "name": "Red",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Morris",
+        "name": "Morris",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    },
+    {
+        "nid": "Yule",
+        "name": "Yule",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Water",
+        "fields": []
+    },
+    {
+        "nid": "Agni",
+        "name": "Agni",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Tiamat",
+        "name": "Tiamat",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Heaven",
+        "fields": []
+    },
+    {
+        "nid": "Quilaztli",
+        "name": "Quilaztli",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Heaven",
+        "fields": []
+    },
+    {
+        "nid": "Katherine",
+        "name": "Katherine",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Dark",
+        "fields": []
+    },
+    {
+        "nid": "Linda",
+        "name": "Linda",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Necromancer",
+        "tags": [],
+        "bases": {
+            "HP": 18,
+            "STR": 0,
+            "MAG": 9,
+            "SKL": 4,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 8,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 5,
+            "MAG": 55,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 20,
+            "DEF": 10,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Light",
+        "fields": []
+    },
+    {
+        "nid": "Harold",
+        "name": "Harold",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Earth",
+        "fields": []
+    },
+    {
+        "nid": "Ciara",
+        "name": "Ciara",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "Wind",
+        "fields": []
+    },
+    {
+        "nid": "Reina",
+        "name": "Reina",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Rebecca",
+        "name": "Rebecca",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Mage Knight",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 4,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 6,
+            "CON": 8,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 5,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 15,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Rebecca",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Placeholder -- Enemy Units",
+        "name": "Placeholder -- Enemy",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Margot",
+        "name": "Margot",
+        "desc": "",
+        "variant": null,
+        "level": 14,
+        "klass": "MercenaryF",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 20,
+            "STR": 12,
+            "MAG": 2,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 4,
+            "DEF": 5,
+            "RES": 5,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 100,
+            "STR": 40,
+            "MAG": 20,
+            "SKL": 40,
+            "SPD": 60,
+            "LCK": 40,
+            "DEF": 30,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": null,
+        "portrait_nid": "Margot",
+        "affinity": "Light",
+        "fields": []
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pavise",
+        "name": "Pavise",
+        "desc": "Proc. Ignore attacker's damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "defense_proc",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Art and Margot",
+        "trigger": "combat_start",
+        "level_nid": "DEBUG",
+        "condition": "(unit.nid == \"Margot\" and unit2.nid == \"Art\") or (unit2.nid == \"Margot\" and unit.nid == \"Art\")",
+        "commands": [
+            [
+                "music_clear",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Margot",
+                    "Left",
+                    "normal"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Right",
+                    "normal"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Art",
+                    "HalfCloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Margot",
+                    "What's wrong?|No final words for ol' little me?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "You know very well I don't want to do this..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Margot",
+                    " ...Haaahhh... |Listen, we're both mercenaries. |You knew this day would come."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Art",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "I... I'll never forget about you, Margot."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Margot",
+                    "You pedantic piece of...|That's exactly why I...|No use in reminiscing about the past."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Art",
+                    "NormalBlink"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Here I come, Margot."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Margot",
+                    "Come, Art..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Margot",
+                    "Art"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

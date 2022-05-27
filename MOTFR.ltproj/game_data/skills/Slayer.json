@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Slayer",
+        "name": "Slayer",
+        "desc": "Effective against monsters",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

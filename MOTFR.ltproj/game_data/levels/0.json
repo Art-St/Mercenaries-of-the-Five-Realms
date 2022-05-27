@@ -1,0 +1,106 @@
+[
+    {
+        "nid": "0",
+        "name": "Prologue 1",
+        "tilemap": "Prologue 1",
+        "party": "Art's Group",
+        "music": {
+            "player_phase": "Friendship and Adventure - Prologue 1",
+            "enemy_phase": "Friendship and Adventure - Prologue 1",
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": "Friendship and Adventure - Prologue 1",
+            "enemy_battle": "Friendship and Adventure - Prologue 1",
+            "other_battle": null,
+            "enemy2_battle": null,
+            "base": null
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Eirika dies"
+        },
+        "roam": false,
+        "roam_unit": "Eirika",
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "Art",
+                "team": "enemy",
+                "ai": "WallYuki",
+                "ai_group": null,
+                "starting_position": [
+                    7,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Yuki",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sagitta",
+                "team": "enemy",
+                "ai": "Guard",
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ken",
+                "team": "enemy",
+                "ai": "Pursue",
+                "ai_group": null,
+                "starting_position": [
+                    6,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "normal",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Enemy1",
+                "units": [],
+                "positions": {}
+            },
+            {
+                "nid": "Player",
+                "units": [
+                    "Art"
+                ],
+                "positions": {}
+            }
+        ]
+    }
+]

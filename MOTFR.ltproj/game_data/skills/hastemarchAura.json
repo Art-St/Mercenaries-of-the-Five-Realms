@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "hastemarchAura",
+        "name": "Hastermarch",
+        "desc": "Adjacent Allies with HP>=50% can move one extra space.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "fVitae",
+        "name": "Vitae",
+        "desc": "Grants HP + 10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "name": "3 Sagitta's Stand",
+        "trigger": "enemy_turn_change",
+        "level_nid": "0",
+        "condition": "game.check_dead('Ken') and game.game_vars['doorUnlocked1']",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Yuki",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "What's wrong? Not going to move?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sagitta",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sagitta",
+                    "Any archer worth their salt won' be so reckless, gal.|Now, c'mere and lemme shoot ya."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Sagitta",
+                    "Yuki"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

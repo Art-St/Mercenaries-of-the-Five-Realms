@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Revelation",
+        "name": "Revelation",
+        "desc": "Activated. RNG: 1. Grants ally Hit/Avoid +100 until next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Revelation"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

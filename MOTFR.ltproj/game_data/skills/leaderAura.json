@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "leaderAura",
+        "name": "Leadership Aura",
+        "desc": "Reduces damage taken by unit and nearby allies when HP is full.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "aura",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ]
+        ]
+    }
+]

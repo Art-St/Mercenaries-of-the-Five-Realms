@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Curved Shot_Proc",
+        "name": "Curved Shot",
+        "desc": "",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            2,
+            48
+        ],
+        "components": [
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "modify_maximum_range",
+                3
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

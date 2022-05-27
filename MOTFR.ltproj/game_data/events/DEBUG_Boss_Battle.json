@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Boss Battle",
+        "trigger": "combat_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid == \"Margot\" or unit2.nid == \"Margot\""
+                ]
+            ],
+            [
+                "change_music",
+                [
+                    "player_battle",
+                    "The battle must be won"
+                ]
+            ],
+            [
+                "change_music",
+                [
+                    "enemy_battle",
+                    "The battle must be won"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "change_music",
+                [
+                    "player_battle",
+                    "Ally Attack - Autoloop"
+                ]
+            ],
+            [
+                "change_music",
+                [
+                    "enemy_battle",
+                    "Shadow of the Enemy"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

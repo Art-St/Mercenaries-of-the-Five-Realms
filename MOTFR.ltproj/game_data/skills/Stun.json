@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Stun",
+        "name": "Stun",
+        "desc": "Paralyzed. Cannot move, attack, or counterattack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            7
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapStun"
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ]
+        ]
+    }
+]

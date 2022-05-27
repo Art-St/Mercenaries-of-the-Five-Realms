@@ -1,0 +1,60 @@
+[
+    {
+        "name": "5A Let's call it a day, pls",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "check_pair(\"Art\", \"Yuki\")",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Yuki",
+                    "Left",
+                    "Art",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "I'm too exhausted to continue. Sorry."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "I can't say I'm not disappointed, but it's fair.|Take a break now. You've earned it.|That's it for today."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Thank you!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Art",
+                    "Yuki"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Yuki",
+                    "Art"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

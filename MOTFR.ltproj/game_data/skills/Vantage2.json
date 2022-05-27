@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Vantage2",
+        "name": "Vantage",
+        "desc": "Proc. Attack first even on defense.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "defense_pre_proc",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

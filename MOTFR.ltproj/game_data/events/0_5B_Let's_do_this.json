@@ -1,0 +1,84 @@
+[
+    {
+        "name": "5B Let's do this",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"Art\" and unit2.nid == \"Yuki\") or (unit2.nid == \"Art\" and unit.nid == \"Yuki\")",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Art",
+                    "Left",
+                    "Yuki",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Oh, my. So, you want to fight?|Alright. I'm right here, girl. Show me what you've got."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "W-wait... where's your sword?"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Art",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Left it at home."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "I'm starting to have second thoughts about it..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Too bad.|This'll teach you that actions have consequences"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Art",
+                    "Yuki"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Yuki",
+                    "Art"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "borrowedTime1",
+                    "True"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

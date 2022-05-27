@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Healtouch",
+        "name": "Healtouch",
+        "desc": "Heal +5 HP when healing another.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

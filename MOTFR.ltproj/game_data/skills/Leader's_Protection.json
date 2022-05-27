@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Leader's Protection",
+        "name": "Leader's Protection",
+        "desc": "Reduces damage taken by 20% if HP is full.",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            31,
+            11
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "0.8 if unit.stats['HP'] == unit.get_hp() else 1"
+            ]
+        ]
+    }
+]

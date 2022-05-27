@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Capricorn_Status",
+        "name": "Capricorn",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "dynamic_damage",
+                "11 if Utility.lt(self.stats['MAG'], 3) else 0"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

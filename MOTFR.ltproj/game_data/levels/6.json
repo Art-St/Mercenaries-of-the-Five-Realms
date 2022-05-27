@@ -1,0 +1,29 @@
+[
+    {
+        "nid": "6",
+        "name": "Chapter 6",
+        "tilemap": "Chapter 1a",
+        "party": "Eirika",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": "Placeholder",
+        "go_to_overworld": false,
+        "units": [],
+        "regions": [],
+        "unit_groups": []
+    }
+]

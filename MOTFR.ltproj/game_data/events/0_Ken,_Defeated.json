@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ken, Defeated",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Ken\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Ken",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ken",
+                    "Ouchies...|That's gonna hurt tomorrow..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ken"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

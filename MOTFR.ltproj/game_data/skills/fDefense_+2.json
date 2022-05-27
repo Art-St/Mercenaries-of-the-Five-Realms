@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "fDefense +2",
+        "name": "Defense +2",
+        "desc": "Grants DEF +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    }
+]

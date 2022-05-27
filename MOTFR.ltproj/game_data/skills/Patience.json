@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Patience",
+        "name": "Patience",
+        "desc": "If attacked, grants Hit/Avoid +15 and Damage +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "15 if (mode == 'Attack') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if (mode == 'Defense') else 0"
+            ],
+            [
+                "dynamic_damage",
+                "1 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,250 @@
+[
+    {
+        "nid": "DEBUG",
+        "name": "DEBUG",
+        "tilemap": "Chapter 2",
+        "party": "Art's Group",
+        "music": {
+            "player_phase": "Distant Roads - Loop",
+            "enemy_phase": "Shadow of the Enemy",
+            "other_phase": null,
+            "player_battle": "Ally Attack - Autoloop",
+            "enemy_battle": "Safeguard",
+            "other_battle": null,
+            "base": "Friendship and Adventure - In the barracks"
+        },
+        "objective": {
+            "simple": "DEBUG",
+            "win": "Don't Crash",
+            "loss": "Crash"
+        },
+        "roam": false,
+        "roam_unit": "Placeholder",
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        true
+                    ],
+                    [
+                        "Slim Lance",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Vulnerary",
+                        true
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        true
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 10,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ],
+                    [
+                        "Slim Lance",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "ai_group": null,
+                "starting_position": [
+                    13,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Art",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Yuki",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    6,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Zelda",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    2,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Alice",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Jay",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Margot",
+                "team": "enemy",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Armory",
+                "region_type": "event",
+                "position": [
+                    5,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armory",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region)",
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": []
+    }
+]

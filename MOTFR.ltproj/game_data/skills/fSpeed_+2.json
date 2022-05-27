@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "fSpeed +2",
+        "name": "Speed +2",
+        "desc": "Grants SPD +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    }
+]

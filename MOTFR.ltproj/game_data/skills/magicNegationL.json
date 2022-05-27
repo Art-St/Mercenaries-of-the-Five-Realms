@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "magicNegationL",
+        "name": "Light Aegis",
+        "desc": "Protection granted by the Light Aegis",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    }
+]

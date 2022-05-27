@@ -1,0 +1,129 @@
+[
+    {
+        "nid": "GreatLordM",
+        "name": "Great Lord",
+        "desc": "Ruling nobles attached to a noble house with realized potential.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "LordM",
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 18,
+            "STR": 5,
+            "MAG": 1,
+            "SKL": 4,
+            "SPD": 5,
+            "LCK": 4,
+            "DEF": 5,
+            "RES": 2,
+            "CON": 6,
+            "MOV": 6,
+            "Mana": 0
+        },
+        "growths": {
+            "HP": 130,
+            "STR": 65,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 40,
+            "LCK": 30,
+            "DEF": 75,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "Mana": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "Mana": 0
+        },
+        "promotion": {
+            "HP": 3,
+            "STR": 1,
+            "MAG": 1,
+            "SKL": 2,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "RES": 1,
+            "CON": 2,
+            "MOV": 1,
+            "Mana": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 32,
+            "MAG": 25,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 32,
+            "RES": 27,
+            "CON": 20,
+            "MOV": 15,
+            "Mana": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                2,
+                71
+            ],
+            "Lance": [
+                2,
+                181
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Ephraim_Great_Lord",
+        "combat_anim_nid": null,
+        "fields": []
+    }
+]

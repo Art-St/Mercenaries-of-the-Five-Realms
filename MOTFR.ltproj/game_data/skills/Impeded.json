@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Impeded",
+        "name": "Impeded",
+        "desc": "Movement reduced somewhat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

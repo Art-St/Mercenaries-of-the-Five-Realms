@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Cleave",
+        "name": "Cleave",
+        "desc": "Combat Art. Prereq: Axe. Damages all adjacent enemy units.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Canto"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

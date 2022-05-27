@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Lancefaire",
+        "name": "Lancefaire",
+        "desc": "While wielding a lance, cannot be counterattacked.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

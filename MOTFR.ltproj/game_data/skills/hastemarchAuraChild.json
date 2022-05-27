@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "hastemarchAuraChild",
+        "name": "Hastemarch",
+        "desc": "Movement +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": []
+    }
+]

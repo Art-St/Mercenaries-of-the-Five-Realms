@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "fFortuna",
+        "name": "Fortuna",
+        "desc": "Grants LCK +4.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ]
+        ]
+    }
+]

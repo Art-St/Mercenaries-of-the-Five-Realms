@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Leader's Ward",
+        "name": "Leader's Ward",
+        "desc": "Reduces damage taken by 50% if HP is full. \nGrants Leader's Protection to allies within 2 spaces.",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            31,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Leader's Protection"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "dynamic_resist",
+                "1 if unit.get_max_hp() == unit.get_hp() else 0.5"
+            ]
+        ]
+    }
+]

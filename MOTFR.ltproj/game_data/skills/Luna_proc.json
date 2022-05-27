@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Luna_proc",
+        "name": "Luna",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

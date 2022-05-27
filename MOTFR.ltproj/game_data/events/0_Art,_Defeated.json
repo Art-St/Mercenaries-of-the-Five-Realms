@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Art, Defeated",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Art\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Hunh... Heh... That was good...|I wasn't expecting you to just...|Am I getting too old...?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Art"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Summon_M",
+        "name": "Summon",
+        "desc": "Command Skill. Summons a familiar to aid you.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Summon_Gargoyle"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

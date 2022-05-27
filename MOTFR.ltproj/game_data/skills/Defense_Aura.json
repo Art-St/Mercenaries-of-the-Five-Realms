@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Defense_Aura",
+        "name": "Defense Aura",
+        "desc": "Aura. Grants allies DEF +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            4
+        ],
+        "components": [
+            [
+                "aura",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

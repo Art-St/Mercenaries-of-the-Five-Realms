@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Resist_Status",
+        "name": "Resist Status",
+        "desc": "Ignore temporary status ailments after 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "resist_status",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

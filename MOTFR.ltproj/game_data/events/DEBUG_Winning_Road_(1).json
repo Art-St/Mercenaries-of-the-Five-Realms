@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Winning Road (1)",
+        "trigger": "combat_end",
+        "level_nid": "DEBUG",
+        "condition": "len(game.get_enemy_units()) < 3",
+        "commands": [
+            [
+                "music_clear",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "change_music",
+                [
+                    "player_phase",
+                    "Winning Road"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

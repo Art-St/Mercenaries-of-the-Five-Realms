@@ -1,0 +1,89 @@
+[
+    {
+        "nid": "Ken",
+        "name": "Ken",
+        "desc": "Kindhearted and brave man from Belhaven. \nSpends too much time in the sun",
+        "variant": "",
+        "level": 9,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 10,
+            "MAG": 0,
+            "SKL": 11,
+            "SPD": 11,
+            "LCK": 5,
+            "DEF": 8,
+            "RES": 3,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 60,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 50,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "TrainerSwd",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ken",
+        "affinity": "Water",
+        "fields": []
+    }
+]

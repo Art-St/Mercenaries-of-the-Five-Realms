@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Swap",
+        "name": "Swap",
+        "desc": "Activated. Swap position with an adjacent unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Swap"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

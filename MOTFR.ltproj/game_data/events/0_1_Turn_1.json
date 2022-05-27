@@ -1,0 +1,162 @@
+[
+    {
+        "name": "1 Turn 1",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount==1",
+        "commands": [
+            [
+                "music",
+                [
+                    "Friendship and Adventure - Prologue 1",
+                    "100"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Ken, much like you, is a swordfighter.|You're familiar with how swords work, don't you?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yuki",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Gotta get close and attack the enenmy with my sword."
+                ]
+            ],
+            [
+                "end_skip",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Correct.|Should I continue with the lesson?"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "tutorialOpt",
+                    "Continue{br}Listening?",
+                    "Yes,No",
+                    "15",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "1,4"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.game_vars['tutorialOpt'] == 'No'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "I'm good."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Alright. Carry on, then."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Very well.|You have to first get close to Ken in order to attack him|Bear in mind that he won't sit idly by while you approach.|Perhaps, you'd like to take the chance to get close to a pillar."
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "5,11",
+                    "1000"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "5,11"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Like that one over there."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Got it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Pillars offer tactical advantage.|To survive any strategy is viable. Now, do your best, okay?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Okay!"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Art",
+                    "Yuki"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

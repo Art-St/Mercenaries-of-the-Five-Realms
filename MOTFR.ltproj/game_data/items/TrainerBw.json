@@ -1,0 +1,87 @@
+[
+    {
+        "nid": "TrainerBw",
+        "name": "Trainer",
+        "desc": "Training Bow. Allows a unit to hold back their true strength.",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            7,
+            6
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                0
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                -99
+            ],
+            [
+                "weight",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        -7
+                    ],
+                    [
+                        "STR",
+                        -5
+                    ],
+                    [
+                        "SKL",
+                        -5
+                    ],
+                    [
+                        "SPD",
+                        -5
+                    ],
+                    [
+                        "DEF",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

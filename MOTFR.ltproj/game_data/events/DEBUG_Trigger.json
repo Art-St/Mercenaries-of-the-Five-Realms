@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Trigger",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "close",
+                    "400"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Backwoods_Day"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close",
+                    "400"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "This is a test"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Art"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Margot ded",
+        "trigger": "unit_death",
+        "level_nid": "DEBUG",
+        "condition": "unit.nid == \"Margot\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Margot",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Margot",
+                    "Aaaahh... Ugh... Heh..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Margot",
+                    "HalfCloseEyes,Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Margot",
+                    "N-no regrets... None, Art..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Margot",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Margot"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

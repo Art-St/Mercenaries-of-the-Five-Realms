@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Heavy Hitter",
+        "name": "Heavy Hitter",
+        "desc": "Adds half weapon weight to damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "item.weight/2 if item.weight else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

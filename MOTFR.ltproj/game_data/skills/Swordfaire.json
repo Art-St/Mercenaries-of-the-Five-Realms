@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Swordfaire",
+        "name": "Swordfaire",
+        "desc": "While wielding a sword, it gains the brave property.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

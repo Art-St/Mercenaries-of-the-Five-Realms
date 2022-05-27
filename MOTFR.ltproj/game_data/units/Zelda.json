@@ -1,0 +1,106 @@
+[
+    {
+        "nid": "Zelda",
+        "name": "Zelda",
+        "desc": "The fair crown princess of the empire.\nA cheerful and carefree girl.",
+        "variant": "",
+        "level": 5,
+        "klass": "LordF",
+        "tags": [
+            "Lord"
+        ],
+        "bases": {
+            "HP": 26,
+            "STR": 5,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 8,
+            "LCK": 4,
+            "DEF": 3,
+            "RES": 4,
+            "CON": 6,
+            "MOV": 5,
+            "Mana": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 55,
+            "MAG": 45,
+            "SKL": 50,
+            "SPD": 60,
+            "LCK": 55,
+            "DEF": 50,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0,
+            "Mana": 0
+        },
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "fStrength +2"
+            ],
+            [
+                1,
+                "Plenitude"
+            ],
+            [
+                1,
+                "Windsweep"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Zelda",
+        "affinity": "Light",
+        "fields": []
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "name": "4 All what's left...",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.check_dead(\"Sagitta\") and game.check_dead(\"Ken\")",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Sagitta",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sagitta",
+                    "Tch...|Fine, Ah give..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yuki",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Dang... Your arrows come from nowehere!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sagitta",
+                    "Savor it now, gal.|One of these days, Ah'll show ya who's da real tough gal 'round these parts..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "... Sore loser?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "That's quite enough, you two."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sagitta",
+                    "Tsk..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sagitta"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Fantastic job.|All that's left to do is to defeat me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Y-you?|Ah, no offense, chief, but..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Hm. I'll let you decide how to approach it.|If you're tired enough we can call it a day here.|Or, if you're itching for more,|my sword is more than happy to clash with yours.|Your choice."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Hmm..."
+                ]
+            ],
+            [
+                "end_skip",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Art",
+                    "Yuki"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Art",
+                    "11,11",
+                    "normal",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "DoorLarge",
+                    "fade"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock",
+                    "1"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Art",
+                    "11,13",
+                    "normal",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "end_skip",
+                []
+            ],
+            [
+                "add_talk",
+                [
+                    "Yuki",
+                    "Art"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

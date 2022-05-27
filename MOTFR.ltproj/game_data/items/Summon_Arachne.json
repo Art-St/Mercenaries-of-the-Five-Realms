@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Summon_Arachne",
+        "name": "Summon",
+        "desc": "Summons an Arachne",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            30,
+            9
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Summon Arachne"
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "mana_cost",
+                10
+            ]
+        ]
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "nid": "Margot",
+        "name": "Margot",
+        "desc": "",
+        "variant": null,
+        "level": 14,
+        "klass": "MercenaryF",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 20,
+            "STR": 12,
+            "MAG": 2,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 4,
+            "DEF": 5,
+            "RES": 5,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 100,
+            "STR": 40,
+            "MAG": 20,
+            "SKL": 40,
+            "SPD": 60,
+            "LCK": 40,
+            "DEF": 30,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Dagger": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Margot",
+        "affinity": "Light",
+        "fields": []
+    }
+]

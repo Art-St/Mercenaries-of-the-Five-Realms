@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "If 4 more attack speed than enemy, double counterattack while defending.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "can_double_on_defense",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

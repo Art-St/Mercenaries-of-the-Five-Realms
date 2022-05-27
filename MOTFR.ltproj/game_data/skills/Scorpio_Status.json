@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Scorpio_Status",
+        "name": "Scorpio",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

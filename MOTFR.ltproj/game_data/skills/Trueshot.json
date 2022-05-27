@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Trueshot",
+        "name": "Trueshot",
+        "desc": "Combat Art. +100 hit on next attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            9
+        ],
+        "components": [
+            [
+                "combat_art",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

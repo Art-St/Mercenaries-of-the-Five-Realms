@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Clairvoyance",
+        "name": "Clairvoyance",
+        "desc": "Crit+5. Grants Hit/Avo+10 during combat against Tome users",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            5
+        ],
+        "components": [
+            [
+                "crit",
+                5
+            ],
+            [
+                "dynamic_accuracy",
+                "10 if (target.getMainWeapon() and target.getMainWeapon().TYPE in ('Light', 'Anima', 'Dark')) else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "10 if (target.getMainWeapon() and target.getMainWeapon().TYPE in ('Light', 'Anima', 'Dark')) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Yuki, Defeated",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Yuki\" ",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Yuki",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Unnh... I... lost?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Oh, my. Perhaps this was too much for you.|Alright, that's it for today."
+                ]
+            ],
+            [
+                "if",
+                [
+                    "borrowedTime3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Well, I guess we have to call it here. Are you well?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "It's gonna hurt tomorrow..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "... Sorry, I went too hard on you."
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Skill_Restore",
+        "name": "Skill Restore",
+        "desc": "Fully charges all activated skills.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

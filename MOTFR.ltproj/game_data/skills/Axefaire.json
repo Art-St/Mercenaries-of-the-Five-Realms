@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Axefaire",
+        "name": "Axefaire",
+        "desc": "While wielding an axe, ignore half enemy's Defense or Resistance.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

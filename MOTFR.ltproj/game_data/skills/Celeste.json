@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Celeste",
+        "name": "Celeste",
+        "desc": "Weaken enemies struck by your weapons.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

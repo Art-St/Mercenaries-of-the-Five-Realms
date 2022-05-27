@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Summon_Spider",
+        "name": "Summon_Spider",
+        "desc": "",
+        "icon_nid": "icon sheet rd (1)",
+        "icon_index": [
+            31,
+            9
+        ],
+        "components": []
+    }
+]

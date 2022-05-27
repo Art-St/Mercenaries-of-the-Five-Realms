@@ -1,0 +1,40 @@
+[
+    {
+        "nid": "Metamagic_Status",
+        "name": "Overcharged",
+        "desc": "Next attack or spell has increased area of effect.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            7
+        ],
+        "components": [
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "F",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ]
+                ]
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ],
+            [
+                "unit_anim",
+                "OverchargeAura"
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    248,
+                    0,
+                    248
+                ]
+            ]
+        ]
+    }
+]

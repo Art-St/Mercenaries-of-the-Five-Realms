@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Rally_Child",
+        "name": "Rallied",
+        "desc": "Grants +4 to all stats.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

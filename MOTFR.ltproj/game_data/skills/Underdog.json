@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Underdog",
+        "name": "Underdog",
+        "desc": "Grants Damage +2 and Damage Taken -2 against enemies with greater max HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "2 if (Utility.lt(self.stats['HP'], target.stats['HP'])) else 0"
+            ],
+            [
+                "dynamic_resist",
+                "2 if (Utility.lt(target.stats['HP'], self.stats['HP'])) else 0"
+            ]
+        ]
+    }
+]

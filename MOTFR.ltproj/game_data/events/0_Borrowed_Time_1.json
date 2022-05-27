@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Borrowed Time 1",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.game_vars['borrowedTime1']",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Does it feel like you're getting nowhere?|Do you give up?"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "giveUp",
+                    "Give Up?",
+                    "Yes,No",
+                    "50",
+                    "v",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "2,0"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.game_vars['giveUp'] == 'No'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Hmm. Alright, then.|Do your best."
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "borrowedTime2",
+                    "True"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Is that so? Very well.|Let's call it a day here."
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Art"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

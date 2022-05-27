@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Art|Alice C",
+        "trigger": "on_support",
+        "level_nid": null,
+        "condition": "check_pair('Art', 'Alice') and item == 'C'",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "ArtPortrait",
+                    "Left",
+                    "AlicePortrait",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "ArtPortrait",
+                    "So, Alice, was it?|How are you holding up?|Being from home can be quite taxing",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "AlicePortrait",
+                    "*Uneasy Potato Noises*"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "ArtPortrait",
+                    "Ah, yes, of course.|Thank you for your wisdom, anxious potato."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Poise",
+        "name": "Poise",
+        "desc": "If attacking, DEF/RES +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "5 if (mode == 'Defense') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

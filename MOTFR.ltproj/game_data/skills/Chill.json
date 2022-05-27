@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Chill",
+        "name": "Chilled",
+        "desc": "Inflicts Avoid -10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "avoid",
+                -10
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

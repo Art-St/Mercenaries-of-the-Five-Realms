@@ -1,0 +1,461 @@
+[
+    {
+        "nid": "None",
+        "name": "None",
+        "desc": "No affinity",
+        "bonus": [],
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Fire",
+        "name": "Fire",
+        "desc": "Grants increased attack power, acccuracy, critical rate and attack speed.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0,
+                "accuracy": 2.5,
+                "avoid": 0.0,
+                "crit": 2.5,
+                "dodge": 0,
+                "attack_speed": 0.5,
+                "defense_speed": 0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 0.0,
+                "accuracy": 5.0,
+                "avoid": 0.0,
+                "crit": 5.0,
+                "dodge": 0.0,
+                "attack_speed": 1.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 0.0,
+                "accuracy": 7.5,
+                "avoid": 0.0,
+                "crit": 7.5,
+                "dodge": 0.0,
+                "attack_speed": 1.5,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "damage": 2.0,
+                "resist": 0.0,
+                "accuracy": 10.0,
+                "avoid": 0.0,
+                "crit": 10.0,
+                "dodge": 0.0,
+                "attack_speed": 2.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            5,
+            0
+        ]
+    },
+    {
+        "nid": "Thunder",
+        "name": "Thunder",
+        "desc": "Grants increased defense, avoid, crit rate, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.5,
+                "accuracy": 0.0,
+                "avoid": 2.5,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 1.0,
+                "accuracy": 0.0,
+                "avoid": 5.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 1.5,
+                "accuracy": 0.0,
+                "avoid": 7.5,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "damage": 0.0,
+                "resist": 2.0,
+                "accuracy": 0.0,
+                "avoid": 10.0,
+                "crit": 10.0,
+                "dodge": 10.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            7,
+            0
+        ]
+    },
+    {
+        "nid": "Wind",
+        "name": "Wind",
+        "desc": "Grants increased might, accuracy, crit rate, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0,
+                "accuracy": 2.5,
+                "avoid": 2.5,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 5.0,
+                "avoid": 5.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 7.5,
+                "avoid": 7.5,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 10.0,
+                "avoid": 10.0,
+                "crit": 10.0,
+                "dodge": 10.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            6,
+            0
+        ]
+    },
+    {
+        "nid": "Water",
+        "name": "Water",
+        "desc": "Grants increased defense, accuracy, avoid, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0.5,
+                "accuracy": 2.5,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.5,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 1.0,
+                "accuracy": 5.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 1.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 1.5,
+                "accuracy": 7.5,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 1.5,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "damage": 2.0,
+                "resist": 2.0,
+                "accuracy": 10.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 2.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            2,
+            0
+        ]
+    },
+    {
+        "nid": "Dark",
+        "name": "Dark",
+        "desc": "Grants Attack power, Avoid, Critical Rate and Critical Evade to support partners.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.5,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 2.5,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 1.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 5.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 1.5,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 7.5,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "damage": 2.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 10.0,
+                "crit": 10.0,
+                "dodge": 10.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            4,
+            0
+        ]
+    },
+    {
+        "nid": "Light",
+        "name": "Light",
+        "desc": "Grants increased defense, accuracy, crit rate, and crit evade.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.5,
+                "accuracy": 2.5,
+                "avoid": 0.0,
+                "crit": 2.5,
+                "dodge": 2.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 1.0,
+                "accuracy": 5.0,
+                "avoid": 0.0,
+                "crit": 5.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 1.5,
+                "accuracy": 7.5,
+                "avoid": 0.0,
+                "crit": 7.5,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 2.0,
+                "accuracy": 10.0,
+                "avoid": 0.0,
+                "crit": 10.0,
+                "dodge": 10.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            3,
+            0
+        ]
+    },
+    {
+        "nid": "Heaven",
+        "name": "Heaven",
+        "desc": "Grants increased attack, defense, avoid, and crit avoid.",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 5.0,
+                "avoid": 5.0,
+                "crit": 0.0,
+                "dodge": 2.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 10.0,
+                "avoid": 10.0,
+                "crit": 0.0,
+                "dodge": 5.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 15.0,
+                "avoid": 15.0,
+                "crit": 0.0,
+                "dodge": 7.5,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 20.0,
+                "avoid": 20.0,
+                "crit": 0.0,
+                "dodge": 10.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Earth",
+        "name": "Earth",
+        "desc": "Grants defense, avoid and attack speed",
+        "bonus": [
+            {
+                "support_rank": "C",
+                "damage": 0.0,
+                "resist": 0.5,
+                "accuracy": 0.0,
+                "avoid": 5.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.5,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "damage": 0.0,
+                "resist": 1.0,
+                "accuracy": 0.0,
+                "avoid": 10.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 1.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "damage": 0.0,
+                "resist": 1.5,
+                "accuracy": 0.0,
+                "avoid": 15.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 1.5,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "damage": 0.0,
+                "resist": 2.0,
+                "accuracy": 0.0,
+                "avoid": 20.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 2.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "affnities tellius",
+        "icon_index": [
+            1,
+            0
+        ]
+    }
+]

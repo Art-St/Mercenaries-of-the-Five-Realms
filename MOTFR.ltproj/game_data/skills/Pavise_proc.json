@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pavise_proc",
+        "name": "Pavise",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "resist",
+                500
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

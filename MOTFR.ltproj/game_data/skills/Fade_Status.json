@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "Fade_Status",
+        "name": "Faded",
+        "desc": "Faded. Grants Avoid +100. Lost on attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "avoid",
+                100
+            ],
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "F",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

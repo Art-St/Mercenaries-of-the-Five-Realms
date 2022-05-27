@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Sagita's AI",
+        "trigger": "enemy_turn_change",
+        "level_nid": "0",
+        "condition": "game.check_dead(\"Ken\")",
+        "commands": [
+            [
+                "change_ai",
+                [
+                    "Sagitta",
+                    "Defend"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

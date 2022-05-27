@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Borrowed Time 2",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.game_vars['borrowedTime2']",
+        "commands": [
+            [
+                "game_var",
+                [
+                    "borrowedTime3",
+                    "True"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

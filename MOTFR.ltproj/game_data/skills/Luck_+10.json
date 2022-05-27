@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Luck +10",
+        "name": "Luck +10",
+        "desc": "Gain LCK +10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    }
+]

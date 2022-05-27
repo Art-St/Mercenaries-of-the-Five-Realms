@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Frostbite",
+        "name": "Frostbite",
+        "desc": "Inflicts SPD -3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapFrostbite"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Sapheart_Status",
+        "name": "Sapheart",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "self.stats['STR']"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

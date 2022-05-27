@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Summon Arachne",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.get_unit('Ignis')"
+                ]
+            ],
+            [
+                "resurrect",
+                [
+                    "Ignis"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Ignis",
+                    "warp"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Ignis",
+                    "{eval:unit.get_internal_level()}"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "make_generic",
+                [
+                    "Ignis",
+                    "Arachne",
+                    "{eval:unit.get_internal_level()}",
+                    "player",
+                    "",
+                    "Ignis",
+                    "",
+                    "Sharp Claw"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "add_unit",
+                [
+                    "Ignis",
+                    "{position}",
+                    "warp"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

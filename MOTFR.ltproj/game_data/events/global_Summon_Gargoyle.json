@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Summon Gargoyle",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.get_unit('Victoria')"
+                ]
+            ],
+            [
+                "resurrect",
+                [
+                    "Victoria"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Victoria",
+                    "warp"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Victoria",
+                    "{eval:unit.get_internal_level()}"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "make_generic",
+                [
+                    "Victoria",
+                    "Gargoyle",
+                    "{eval:unit.get_internal_level()}",
+                    "player",
+                    "",
+                    "Monster",
+                    "",
+                    "Iron Lance"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "add_unit",
+                [
+                    "Victoria",
+                    "{position}",
+                    "warp"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Resistance +2",
+        "name": "Resistance +2",
+        "desc": "Grants RES +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ]
+        ]
+    }
+]

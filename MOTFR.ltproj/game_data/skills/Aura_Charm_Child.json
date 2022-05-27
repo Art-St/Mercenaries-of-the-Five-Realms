@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Aura_Charm_Child",
+        "name": "Charm",
+        "desc": "Increases Damage dealt and accuracy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hit",
+                10
+            ],
+            [
+                "damage",
+                2
+            ]
+        ]
+    }
+]

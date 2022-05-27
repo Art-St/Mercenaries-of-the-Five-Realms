@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Savior",
+        "name": "Savior",
+        "desc": "Rescue without penalty.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "ignore_rescue_penalty",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

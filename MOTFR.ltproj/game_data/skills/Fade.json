@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Fade",
+        "name": "Fade",
+        "desc": "Activated. Grants Avoid +100 for 5 turns or until you next attack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            1
+        ],
+        "components": [
+            [
+                "ability",
+                "so_Fade"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

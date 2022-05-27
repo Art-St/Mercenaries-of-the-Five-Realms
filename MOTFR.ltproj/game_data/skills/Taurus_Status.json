@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Taurus_Status",
+        "name": "Taurus",
+        "desc": null,
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

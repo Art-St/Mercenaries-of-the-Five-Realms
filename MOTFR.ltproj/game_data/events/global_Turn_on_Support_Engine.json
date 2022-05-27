@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn on Support Engine",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "game_var",
+                [
+                    "_supports",
+                    "True"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

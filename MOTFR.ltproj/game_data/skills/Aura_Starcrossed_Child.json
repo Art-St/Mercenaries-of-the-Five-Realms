@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Aura_Starcrossed_Child",
+        "name": "Starcrossed",
+        "desc": "Inflicts Hit/Avo -20.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hit",
+                -20
+            ],
+            [
+                "avoid",
+                -20
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

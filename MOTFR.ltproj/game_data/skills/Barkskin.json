@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Barkskin",
+        "name": "Barkskin",
+        "desc": "Grants DEF/RES +6, but inflicts SPD/MOV -2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            8
+        ],
+        "components": [
+            [
+                "stat_change",
+                []
+            ],
+            [
+                "time",
+                5
+            ]
+        ]
+    }
+]

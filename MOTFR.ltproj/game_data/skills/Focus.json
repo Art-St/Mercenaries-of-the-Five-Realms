@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Focus",
+        "name": "Focus",
+        "desc": "Grants Hit/Avoid +20 if no allies are within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "20 if self.check_focus(gameStateObj) else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "20 if self.check_focus(gameStateObj) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "6B I've humored you long enough",
+        "trigger": "enemy_turn_change",
+        "level_nid": "0",
+        "condition": "game.game_vars['borrowedTime3']",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Art",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yuki",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Art",
+                    "Alright, let's see how you handle this."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yuki",
+                    "Huh?"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Art",
+                    "Yuki"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Art",
+                    "Yuki",
+                    "crit1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
