@@ -1,0 +1,116 @@
+pose;Attack
+f;6;Magic_067
+f;4;Magic_068
+effect;MageInit
+f;1;Magic_068
+sound;SageRune
+f;1;Magic_068
+f;8;Magic_069
+sound;Foot Step
+f;1;Magic_069
+f;7;Magic_070
+f;8;Magic_071
+sound;Foot Step
+f;1;Magic_071
+f;11;Magic_072
+f;4;Magic_073
+f;4;Magic_074
+spell
+sound;Foot Step
+f;1;Magic_074
+start_loop
+f;1;Magic_075
+f;1;Magic_076
+f;1;Magic_077
+f;1;Magic_078
+end_loop
+f;4;Magic_079
+f;4;Magic_080
+f;4;Magic_081
+f;4;Magic_082
+sound;Foot Step
+f;1;Magic_082
+f;3;Magic_083
+f;3;Magic_084
+f;2;Magic_085
+sound;Foot Step
+f;1;Magic_085
+f;3;Magic_086
+f;3;Magic_087
+f;8;Magic_088
+f;6;Magic_089
+f;3;Magic_090
+f;1;Magic_091
+f;7;Magic_092
+
+pose;Critical
+f;6;Magic_093
+f;8;Magic_094
+effect;MageCrit
+f;1;Magic_094
+f;4;Magic_095
+f;8;Magic_096
+f;4;Magic_097
+f;3;Magic_098
+f;8;Magic_099
+f;4;Magic_100
+f;8;Magic_101
+f;4;Magic_102
+f;3;Magic_103
+f;8;Magic_104
+f;4;Magic_105
+f;8;Magic_106
+f;4;Magic_107
+f;12;Magic_108
+f;14;Magic_109
+effect;MageInit
+f;1;Magic_109
+sound;SageRune
+f;1;Magic_109
+f;8;Magic_110
+sound;Foot Step
+f;1;Magic_110
+f;7;Magic_111
+f;8;Magic_112
+sound;Foot Step
+f;1;Magic_112
+f;11;Magic_113
+f;4;Magic_114
+f;4;Magic_115
+spell
+sound;Foot Step
+f;1;Magic_115
+start_loop
+f;1;Magic_116
+f;1;Magic_117
+f;1;Magic_118
+f;1;Magic_119
+end_loop
+f;4;Magic_120
+f;4;Magic_121
+f;4;Magic_122
+f;4;Magic_123
+sound;Foot Step
+f;1;Magic_123
+f;3;Magic_124
+f;3;Magic_125
+f;2;Magic_126
+sound;Foot Step
+f;1;Magic_126
+f;3;Magic_127
+f;3;Magic_128
+f;8;Magic_129
+f;6;Magic_130
+f;3;Magic_131
+f;1;Magic_132
+f;7;Magic_133
+
+pose;Dodge
+f;1;Magic_134
+f;3;Magic_135
+f;27;Magic_136
+f;4;Magic_137
+
+pose;Stand
+f;7;Magic_144
+

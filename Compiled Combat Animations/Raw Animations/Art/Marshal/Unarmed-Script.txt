@@ -1,0 +1,13 @@
+pose;Dodge
+f;1;Unarmed_000
+f;3;Unarmed_001
+sound;ArmorShift
+f;1;Unarmed_001
+f;25;Unarmed_002
+f;3;Unarmed_001
+sound;ArmorShift
+f;2;Unarmed_001
+
+pose;Stand
+f;4;Unarmed_000
+

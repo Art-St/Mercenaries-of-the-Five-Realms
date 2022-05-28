@@ -1,0 +1,9 @@
+pose;Dodge
+of;1;Unarmed_000;Unarmed_000_under
+of;3;Unarmed_001
+of;27;Unarmed_002
+of;4;Unarmed_001
+
+pose;Stand
+f;4;Unarmed_000;Unarmed_000_under
+
