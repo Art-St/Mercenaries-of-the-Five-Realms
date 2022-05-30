@@ -3,7 +3,7 @@
         "nid": "Art",
         "name": "Art",
         "desc": "A quiet and pragmatic tactician.\nAn orphan with a troubled past.",
-        "variant": "",
+        "variant": "Art",
         "level": 1,
         "klass": "Grandmaster",
         "tags": [
