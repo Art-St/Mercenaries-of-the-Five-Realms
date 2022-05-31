@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Fortuna",
+        "name": "Fortuna",
+        "desc": "Grants an additional +4 Luck to unit",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            2,
+            17
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

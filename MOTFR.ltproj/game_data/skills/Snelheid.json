@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Snelheid",
+        "name": "Snelheid",
+        "desc": "Grants an additional +4 Spd to unit.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            2,
+            16
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

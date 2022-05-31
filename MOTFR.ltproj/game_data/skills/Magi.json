@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Magi",
+        "name": "Magi",
+        "desc": "Grants an additional +3 Mag to unit.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            1,
+            14
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

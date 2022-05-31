@@ -5,7 +5,7 @@
         "desc": "A quiet and pragmatic tactician.\nAn orphan with a troubled past.",
         "variant": "",
         "level": 1,
-        "klass": "Grandmaster",
+        "klass": "Marshal",
         "tags": [
             "Mage"
         ],
@@ -36,6 +36,10 @@
         "starting_items": [
             [
                 "Ember",
+                false
+            ],
+            [
+                "Iron Sword",
                 false
             ]
         ],

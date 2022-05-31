@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Castellum",
+        "name": "Castellum",
+        "desc": "Grants an addittional +3 Def to unit",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            1,
+            18
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

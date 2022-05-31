@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Vitae",
+        "name": "Vitae",
+        "desc": "Grants an additional +5 HP to unit",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            12
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]
