@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Blaze",
-        "name": "Blaze",
-        "desc": "Increases damage dealt and taken by 1.5x if unit's HP is at half or lower.",
+        "nid": "Test Skill",
+        "name": "Test Skill",
+        "desc": "Does something, I guess",
         "icon_nid": "All_Icons",
         "icon_index": [
-            5,
-            42
+            3,
+            4
         ],
         "components": [
             [
@@ -15,15 +15,15 @@
             ],
             [
                 "damage_multiplier",
-                1.5
+                1.3
             ],
             [
-                "resist_multiplier",
-                1.5
+                "crit",
+                30
             ],
             [
                 "condition",
-                "unit.get_hp()<=unit.get_max_hp()/2"
+                "target.stats['SPD'] < 10"
             ]
         ]
     }
