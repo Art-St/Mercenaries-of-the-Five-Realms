@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Afdeling",
+        "name": "Afdeling",
+        "desc": "Grants an additional +3 Res to unit",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            1,
+            19
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

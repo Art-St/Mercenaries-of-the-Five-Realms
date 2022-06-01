@@ -235,5 +235,7 @@
     "Grandmaster0_GenericGreen": 233,
     "Grandmaster0_GenericBlue": 234,
     "Grandmaster0_GenericRed": 235,
-    "Grandmaster1_GenericBlue": 236
+    "Grandmaster1_Art": 236,
+    "Marshal0_Art": 237,
+    "Marshal0_GenericRed": 238
 }

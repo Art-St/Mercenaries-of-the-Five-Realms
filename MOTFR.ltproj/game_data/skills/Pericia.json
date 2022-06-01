@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Pericia",
+        "name": "Pericia",
+        "desc": "Grants an additional +3 Skill to unit.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            1,
+            15
+        ],
+        "components": [
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]
