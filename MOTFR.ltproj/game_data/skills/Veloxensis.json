@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Test Skill",
-        "name": "Test Skill",
-        "desc": "Does something, I guess",
+        "nid": "Veloxensis",
+        "name": "Veloxensis",
+        "desc": "Grants Crit +10 and increases damage dealt by 1.3x if unit's Spd is higher than the foe's.",
         "icon_nid": "All_Icons",
         "icon_index": [
             3,
@@ -19,11 +19,11 @@
             ],
             [
                 "crit",
-                30
+                10
             ],
             [
-                "condition",
-                "target.stats['SPD'] < 10"
+                "combat_condition",
+                "unit.get_stat('SPD') > target.get_stat('SPD')"
             ]
         ]
     }
