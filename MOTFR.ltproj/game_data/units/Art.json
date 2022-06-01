@@ -5,7 +5,7 @@
         "desc": "A quiet and pragmatic tactician.\nAn orphan with a troubled past.",
         "variant": "",
         "level": 1,
-        "klass": "Marshal",
+        "klass": "Grandmaster",
         "tags": [
             "Mage"
         ],
@@ -35,7 +35,7 @@
         },
         "starting_items": [
             [
-                "Ember",
+                "Fire",
                 false
             ],
             [
@@ -46,7 +46,15 @@
         "learned_skills": [
             [
                 1,
-                "fFortuna"
+                "Eludere"
+            ],
+            [
+                1,
+                "Fortuna"
+            ],
+            [
+                1,
+                "Vitae"
             ]
         ],
         "unit_notes": [],

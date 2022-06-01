@@ -41,20 +41,7 @@
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "fStrength +2"
-            ],
-            [
-                1,
-                "Plenitude"
-            ],
-            [
-                1,
-                "Windsweep"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
