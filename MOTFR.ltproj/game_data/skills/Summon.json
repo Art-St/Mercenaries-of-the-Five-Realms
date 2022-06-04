@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Summon",
+        "name": "Summon",
+        "desc": "Brings forth a familiar.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            7,
+            50
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Summon_Gargoyle"
+            ]
+        ]
+    }
+]

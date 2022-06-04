@@ -72,8 +72,8 @@
                 "ai": "Attack",
                 "ai_group": null,
                 "starting_position": [
-                    4,
-                    4
+                    11,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -156,8 +156,8 @@
                 "ai": "None",
                 "ai_group": null,
                 "starting_position": [
-                    14,
-                    14
+                    4,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -180,8 +180,8 @@
                 "ai": "None",
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    0
+                    1,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -209,6 +209,28 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

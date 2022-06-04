@@ -10,15 +10,15 @@
             "Mage"
         ],
         "bases": {
-            "HP": 38,
+            "HP": 35,
             "STR": 14,
             "MAG": 13,
             "SKL": 13,
             "SPD": 14,
-            "LCK": 8,
-            "DEF": 14,
-            "RES": 12,
-            "CON": 7,
+            "LCK": 6,
+            "DEF": 12,
+            "RES": 10,
+            "CON": 9,
             "MOV": 6
         },
         "growths": {

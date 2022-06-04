@@ -36,6 +36,12 @@
                 []
             ],
             [
+                "if",
+                [
+                    "{eval:unit.get_internal_level()} > 20"
+                ]
+            ],
+            [
                 "make_generic",
                 [
                     "Victoria",
@@ -43,10 +49,31 @@
                     "{eval:unit.get_internal_level()}",
                     "player",
                     "",
-                    "Monster",
+                    "Victoria",
                     "",
-                    "Iron Lance"
+                    "Silver Lance,Javelin"
                 ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "make_generic",
+                [
+                    "Victoria",
+                    "Gargoyle",
+                    "{eval:unit.get_internal_level()}",
+                    "player",
+                    "",
+                    "Victoria",
+                    "",
+                    "Iron Lance,Javelin"
+                ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "end",
@@ -56,7 +83,7 @@
                 "add_unit",
                 [
                     "Victoria",
-                    "{position}",
+                    "{eval:target_pos}",
                     "warp"
                 ]
             ],
