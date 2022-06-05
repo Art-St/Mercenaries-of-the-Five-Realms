@@ -8,7 +8,7 @@
             [
                 "multi_add_portrait",
                 [
-                    "ArtPortrait",
+                    "Art",
                     "Left",
                     "AlicePortrait",
                     "Right"

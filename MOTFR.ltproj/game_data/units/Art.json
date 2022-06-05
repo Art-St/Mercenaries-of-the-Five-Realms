@@ -4,7 +4,7 @@
         "name": "Art",
         "desc": "A quiet and pragmatic tactician.\nAn orphan with a troubled past.",
         "variant": "",
-        "level": 1,
+        "level": 16,
         "klass": "Grandmaster",
         "tags": [
             "Mage"
@@ -46,7 +46,7 @@
         "learned_skills": [
             [
                 1,
-                "Eludere"
+                "Summon"
             ],
             [
                 1,

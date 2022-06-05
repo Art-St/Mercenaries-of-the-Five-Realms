@@ -111,5 +111,8 @@
     "0_Art,_Defeated.json": 109,
     "0_Yuki,_Defeated.json": 110,
     "0_Borrowed_Time_1.json": 111,
-    "0_Borrowed_Time_2.json": 112
+    "0_Borrowed_Time_2.json": 112,
+    "global_ActionCounter_Init.json": 113,
+    "global_ActionCounter_Count_OnAttack.json": 114,
+    "global_ActionCounter_Count_OnWait.json": 115
 }
