@@ -9,7 +9,7 @@
                 "game_var",
                 [
                     "UnitsWhoHaveActed",
-                    "UnitsWhoHaveActed = 0",
+                    "0",
                     "FLAG(no_warn)"
                 ]
             ]

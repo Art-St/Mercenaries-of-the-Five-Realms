@@ -120,8 +120,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Citizen",
-        "combat_anim_nid": "Gargoyle",
+        "map_sprite_nid": "Deathgoyle",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

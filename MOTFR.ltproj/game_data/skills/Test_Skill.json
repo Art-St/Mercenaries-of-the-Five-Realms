@@ -15,7 +15,7 @@
             ],
             [
                 "condition",
-                "game.game_vars['UnitsWhoHaveActed'] > 1"
+                "game.game_vars['UnitsWhoHaveActed'] >= 5"
             ],
             [
                 "damage",

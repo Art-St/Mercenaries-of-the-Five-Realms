@@ -16,6 +16,10 @@
             [
                 "ability",
                 "Summon_Gargoyle"
+            ],
+            [
+                "exp_multiplier",
+                0
             ]
         ]
     }

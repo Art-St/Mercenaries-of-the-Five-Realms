@@ -27,11 +27,12 @@
     "Clairvoyance.json": 25,
     "Sagaciter.json": 26,
     "Summon.json": 27,
-    "Test_Skill.json": 28,
-    "Forest.json": 29,
-    "Avoid10.json": 30,
-    "Fort.json": 31,
-    "Savior.json": 32,
-    "Miracle.json": 33,
-    "MiracleEffect.json": 34
+    "Auriga.json": 28,
+    "Test_Skill.json": 29,
+    "Savior.json": 30,
+    "Forest.json": 31,
+    "Avoid10.json": 32,
+    "Fort.json": 33,
+    "Miracle.json": 34,
+    "MiracleEffect.json": 35
 }
