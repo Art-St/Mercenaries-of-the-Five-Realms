@@ -28,11 +28,13 @@
     "Sagaciter.json": 26,
     "Summon.json": 27,
     "Auriga.json": 28,
-    "Test_Skill.json": 29,
-    "Savior.json": 30,
-    "Forest.json": 31,
-    "Avoid10.json": 32,
-    "Fort.json": 33,
-    "Miracle.json": 34,
-    "MiracleEffect.json": 35
+    "Stalwart.json": 29,
+    "Magnarche.json": 30,
+    "Hastemarche.json": 31,
+    "Test_Skill.json": 32,
+    "Forest.json": 33,
+    "Avoid10.json": 34,
+    "Fort.json": 35,
+    "Miracle.json": 36,
+    "MiracleEffect.json": 37
 }
