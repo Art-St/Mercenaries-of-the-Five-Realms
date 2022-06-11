@@ -11,11 +11,21 @@
         "components": [
             [
                 "defense_proc",
-                "Canto"
+                "MiracleEffect"
             ],
             [
                 "proc_rate",
                 "CRIT_AVOID"
+            ],
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "T",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ]
+                ]
             ]
         ]
     }
