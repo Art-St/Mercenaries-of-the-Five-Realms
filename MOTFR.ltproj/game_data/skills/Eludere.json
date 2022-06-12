@@ -20,10 +20,6 @@
             [
                 "condition",
                 "unit.get_hp() == unit.get_max_hp()"
-            ],
-            [
-                "hidden_if_inactive",
-                null
             ]
         ]
     }

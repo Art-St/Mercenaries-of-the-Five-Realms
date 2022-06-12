@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Starcrossed_AuraAllyEffect",
+        "name": "Starcrossed",
+        "desc": "Inflicts Hit/Avo-15. Inflicts Hit/Avo-30 instead during direct combat.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            1,
+            43
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "-30 if utils.calculate_distance(unit.position, target.position) == 1 else -15"
+            ],
+            [
+                "dynamic_avoid",
+                "-30 if utils.calculate_distance(unit.position, target.position) == 1 else -15"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Succor",
+        "name": "Succor",
+        "desc": "At the start of turn, allies within 3 spaces of unit regain 10HP.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            4,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Succor_AuraEffect"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]
