@@ -32,6 +32,10 @@
             [
                 "dynamic_avoid",
                 "-30 if utils.calculate_distance(unit.position, target.position) == 1 else -15"
+            ],
+            [
+                "crit",
+                -10
             ]
         ]
     }
