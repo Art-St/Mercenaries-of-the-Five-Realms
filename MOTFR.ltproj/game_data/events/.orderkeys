@@ -114,5 +114,8 @@
     "0_Borrowed_Time_2.json": 112,
     "global_ActionCounter_Init.json": 113,
     "global_ActionCounter_Count_OnAttack.json": 114,
-    "global_ActionCounter_Count_OnWait.json": 115
+    "global_ActionCounter_Count_OnWait.json": 115,
+    "global_Capture_System_Skill_Script.json": 116,
+    "global_Capture_System_Capturee_Checker.json": 117,
+    "global_Capture_System_Capturee_Killer.json": 118
 }

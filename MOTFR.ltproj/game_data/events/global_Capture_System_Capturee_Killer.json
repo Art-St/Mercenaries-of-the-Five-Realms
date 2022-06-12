@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Capture System_Capturee Killer",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.get_hp() == 0"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#add_portrait;{eval:unit.name};Left;normal;HalfCloseEyes"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#speak;{eval:unit.name};Ugh... Dammit..."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#expression;{eval:unit.name};CloseEyes"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#remove_portrait;{eval:unit.name}"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
