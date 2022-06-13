@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Starcrossed_AuraAllyEffect",
+        "nid": "Starcrossed_AuraEffect",
         "name": "Starcrossed",
         "desc": "Inflicts Hit/Avo-15. Inflicts Hit/Avo-30 instead during direct combat.",
         "icon_nid": "All_Icons",

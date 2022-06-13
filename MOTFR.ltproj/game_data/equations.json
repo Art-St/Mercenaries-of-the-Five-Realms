@@ -102,5 +102,9 @@
     {
         "nid": "ZERO",
         "expression": "0"
+    },
+    {
+        "nid": "HALF_CHANCE",
+        "expression": "50"
     }
 ]

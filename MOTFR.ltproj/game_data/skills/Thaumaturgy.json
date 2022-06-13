@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Thaumaturgy",
+        "name": "Thaumaturgy",
+        "desc": "May prevent weapon durability from decaying. Inflicts Crit/Avo-10 on foes during combat.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            5,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Thaumaturgy_AuraEffect"
+            ],
+            [
+                "aura_range",
+                4
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ],
+            [
+                "armsthrift",
+                1
+            ],
+            [
+                "proc_rate",
+                "HALF_CHANCE"
+            ]
+        ]
+    }
+]

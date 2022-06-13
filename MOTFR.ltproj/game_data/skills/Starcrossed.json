@@ -15,7 +15,7 @@
             ],
             [
                 "aura",
-                "Starcrossed_AuraAllyEffect"
+                "Starcrossed_AuraEffect"
             ],
             [
                 "aura_range",
@@ -23,7 +23,7 @@
             ],
             [
                 "aura_target",
-                "ally"
+                "unit"
             ],
             [
                 "dynamic_accuracy",
