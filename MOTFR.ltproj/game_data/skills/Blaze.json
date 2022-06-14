@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Blaze",
+        "name": "Blaze",
+        "desc": "Increases damage dealt and taken by 1.5x if unit's HP is at half or lower.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            5,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "damage_multiplier",
+                1.5
+            ],
+            [
+                "resist_multiplier",
+                1.5
+            ],
+            [
+                "condition",
+                "unit.get_hp()<=unit.get_max_hp()/2"
+            ]
+        ]
+    }
+]

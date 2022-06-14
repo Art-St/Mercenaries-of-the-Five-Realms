@@ -12,12 +12,6 @@
                 ]
             ],
             [
-                "change_background",
-                [
-                    "BlackBackground"
-                ]
-            ],
-            [
                 "game_var",
                 [
                     "_convoy",

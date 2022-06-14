@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Thaumaturgy_AuraEffect",
+        "name": "Thaumaturgy",
+        "desc": "Inflicts Crit/Avo-10.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "crit",
+                -10
+            ],
+            [
+                "avoid",
+                -10
+            ]
+        ]
+    }
+]

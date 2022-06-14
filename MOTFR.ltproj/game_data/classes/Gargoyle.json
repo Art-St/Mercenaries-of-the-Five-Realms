@@ -6,12 +6,14 @@
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Deathgoyle"
+        ],
         "tags": [
             "Flying",
             "Monster"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 15,
             "STR": 2,
@@ -62,22 +64,17 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 35,
-            "MAG": 35,
-            "SKL": 35,
-            "SPD": 35,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
             "LCK": 30,
-            "DEF": 35,
-            "RES": 35,
+            "DEF": 20,
+            "RES": 20,
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Auriga",
+        "name": "Auriga",
+        "desc": "If unit is the first to act, unit can make a follow-up and foe cannot.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            1,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_speed",
+                50
+            ],
+            [
+                "combat_condition",
+                "game.game_vars['UnitsWhoHaveActed'] == 0"
+            ]
+        ]
+    }
+]

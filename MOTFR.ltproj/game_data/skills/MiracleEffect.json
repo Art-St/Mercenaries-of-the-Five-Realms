@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "MiracleEffect",
+        "name": "MiracleEffect",
+        "desc": "You shouldn't see this. If you do: Report it.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "miracle",
+                null
+            ]
+        ]
+    }
+]

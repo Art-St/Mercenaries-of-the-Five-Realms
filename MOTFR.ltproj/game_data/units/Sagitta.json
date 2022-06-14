@@ -37,7 +37,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Magnarche"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

@@ -4,21 +4,21 @@
         "name": "Art",
         "desc": "A quiet and pragmatic tactician.\nAn orphan with a troubled past.",
         "variant": "",
-        "level": 1,
+        "level": 16,
         "klass": "Grandmaster",
         "tags": [
             "Mage"
         ],
         "bases": {
-            "HP": 38,
+            "HP": 35,
             "STR": 14,
             "MAG": 13,
             "SKL": 13,
             "SPD": 14,
-            "LCK": 8,
-            "DEF": 14,
-            "RES": 12,
-            "CON": 7,
+            "LCK": 6,
+            "DEF": 12,
+            "RES": 10,
+            "CON": 9,
             "MOV": 6
         },
         "growths": {
@@ -35,14 +35,26 @@
         },
         "starting_items": [
             [
-                "Ember",
+                "Fire",
+                false
+            ],
+            [
+                "Iron Sword",
                 false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "fFortuna"
+                "Eludere"
+            ],
+            [
+                1,
+                "Fortuna"
+            ],
+            [
+                1,
+                "Vitae"
             ]
         ],
         "unit_notes": [],

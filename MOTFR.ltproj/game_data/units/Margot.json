@@ -2,22 +2,22 @@
     {
         "nid": "Margot",
         "name": "Margot",
-        "desc": "",
-        "variant": null,
-        "level": 14,
+        "desc": "Testing",
+        "variant": "",
+        "level": 1,
         "klass": "MercenaryF",
         "tags": [
             "Boss"
         ],
         "bases": {
             "HP": 20,
-            "STR": 12,
+            "STR": 3,
             "MAG": 2,
-            "SKL": 9,
-            "SPD": 8,
+            "SKL": 5,
+            "SPD": 6,
             "LCK": 4,
-            "DEF": 5,
-            "RES": 5,
+            "DEF": 2,
+            "RES": 1,
             "CON": 9,
             "MOV": 5
         },

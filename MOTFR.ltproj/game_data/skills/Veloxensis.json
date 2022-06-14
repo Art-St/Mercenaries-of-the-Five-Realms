@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Veloxensis",
+        "name": "Veloxensis",
+        "desc": "Grants Crit +10 and increases damage dealt by 1.3x if unit's Spd is higher than the foe's.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            29
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "damage_multiplier",
+                1.3
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('SPD') > target.get_stat('SPD')"
+            ]
+        ]
+    }
+]
