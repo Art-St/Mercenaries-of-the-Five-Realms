@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Morkhest",
+        "name": "Morkhest",
+        "desc": "If foe initiates combat, grants Hit/Avo+20 also if foe is a higher level than unit, grants Dmg+5.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "5 if unit.get_internal_level() < target.get_internal_level() else 0"
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "combat_condition",
+                "mode == 'defense'"
+            ]
+        ]
+    }
+]

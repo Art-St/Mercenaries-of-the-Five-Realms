@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ActionCounter_Init",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "game_var",
+                [
+                    "UnitsWhoHaveActed",
+                    "0",
+                    "FLAG(no_warn)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

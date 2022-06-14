@@ -79,12 +79,7 @@
             "New Stat": 30,
             "Mana": 30
         },
-        "learned_skills": [
-            [
-                1,
-                "fFortuna"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 true,

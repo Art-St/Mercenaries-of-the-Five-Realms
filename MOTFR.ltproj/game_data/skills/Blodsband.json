@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Blodsband",
+        "name": "Blodsband",
+        "desc": "If unit is adjacent to an ally and initiates combat, grants Crit+15. If defending, grants Def/Res+4 to unit and ally",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            44
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Blodsband_AuraEffect"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "15 if len(target_system.get_adj_allies(unit)) > 0 and mode == 'attack' else 0"
+            ]
+        ]
+    }
+]

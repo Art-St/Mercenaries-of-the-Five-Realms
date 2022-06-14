@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Magnarche",
+        "name": "Magnarche",
+        "desc": "If unit is not adjacent to an ally and no more than 3 units have acted this turn, grants Hit +50 and Dmg +10 but negates the unit's follow-ups.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            31
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                50
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "condition",
+                "game.game_vars['UnitsWhoHaveActed'] < 3 and len(target_system.get_adj_allies(unit)) == 0"
+            ]
+        ]
+    }
+]

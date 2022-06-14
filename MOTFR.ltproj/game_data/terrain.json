@@ -5,8 +5,7 @@
         "color": [
             192,
             224,
-            48,
-            255
+            48
         ],
         "minimap": "Grass",
         "platform": "Plains",
@@ -37,8 +36,7 @@
         "color": [
             64,
             128,
-            64,
-            255
+            64
         ],
         "minimap": "Forest",
         "platform": "Forest",
@@ -53,8 +51,7 @@
         "color": [
             0,
             32,
-            0,
-            255
+            0
         ],
         "minimap": "Thicket",
         "platform": "Thicket",
@@ -69,8 +66,7 @@
         "color": [
             170,
             170,
-            127,
-            255
+            127
         ],
         "minimap": "Bridge",
         "platform": "Bridge",
@@ -85,8 +81,7 @@
         "color": [
             84,
             24,
-            84,
-            255
+            84
         ],
         "minimap": "Floor",
         "platform": "Floor",
@@ -101,8 +96,7 @@
         "color": [
             84,
             84,
-            84,
-            255
+            84
         ],
         "minimap": "Floor",
         "platform": "Floor",
@@ -117,8 +111,7 @@
         "color": [
             240,
             240,
-            128,
-            255
+            128
         ],
         "minimap": "Sand",
         "platform": "Road",
@@ -133,8 +126,7 @@
         "color": [
             64,
             56,
-            40,
-            255
+            40
         ],
         "minimap": "Pillar",
         "platform": "Pillar",
@@ -149,8 +141,7 @@
         "color": [
             40,
             40,
-            40,
-            255
+            40
         ],
         "minimap": "Wall",
         "platform": "Wall",
@@ -165,8 +156,7 @@
         "color": [
             64,
             40,
-            40,
-            255
+            40
         ],
         "minimap": "Wall",
         "platform": "Wall",
@@ -181,8 +171,7 @@
         "color": [
             0,
             160,
-            248,
-            255
+            248
         ],
         "minimap": "Sea",
         "platform": "Lake",
@@ -197,8 +186,7 @@
         "color": [
             0,
             104,
-            160,
-            255
+            160
         ],
         "minimap": "Sea",
         "platform": "Sea",
@@ -213,8 +201,7 @@
         "color": [
             0,
             160,
-            248,
-            255
+            248
         ],
         "minimap": "River",
         "platform": "River",
@@ -229,8 +216,7 @@
         "color": [
             112,
             84,
-            56,
-            255
+            56
         ],
         "minimap": "Hill",
         "platform": "Hill",
@@ -245,15 +231,14 @@
         "color": [
             80,
             48,
-            40,
-            255
+            40
         ],
         "minimap": "Mountain",
         "platform": "Mountain",
         "background": null,
         "mtype": "Mountain",
         "opaque": false,
-        "status": "Peak"
+        "status": "Forest"
     },
     {
         "nid": "22",
@@ -309,8 +294,7 @@
         "color": [
             168,
             80,
-            168,
-            255
+            168
         ],
         "minimap": "Fort",
         "platform": "Fort",
@@ -405,8 +389,7 @@
         "color": [
             255,
             247,
-            0,
-            255
+            0
         ],
         "minimap": "Chest",
         "platform": "Chest",
@@ -421,8 +404,7 @@
         "color": [
             80,
             0,
-            0,
-            255
+            0
         ],
         "minimap": "Door",
         "platform": "Floor",
@@ -437,8 +419,7 @@
         "color": [
             150,
             0,
-            77,
-            255
+            77
         ],
         "minimap": "Throne",
         "platform": "Throne",

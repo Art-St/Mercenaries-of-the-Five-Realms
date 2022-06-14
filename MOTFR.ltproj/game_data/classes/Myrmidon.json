@@ -80,16 +80,7 @@
             "New Stat": 30,
             "Mana": 30
         },
-        "learned_skills": [
-            [
-                1,
-                "Crit +15"
-            ],
-            [
-                5,
-                "Feat"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 true,

@@ -41,7 +41,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Clairvoyance"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
