@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Gardisto_ChildEffect",
+        "name": "Gardisto",
+        "desc": "Taunted. Inflicts Hit-30 and Dmg-2 unless fighting provoker.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            6,
+            9
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "-2 if (target.nid != skill.initiator_nid and mode == 'attack') else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "-30 if (target.nid != skill.initiator_nid and mode == 'attack') else 0"
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

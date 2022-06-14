@@ -68,5 +68,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Victoria",
+        "name": "Victoria",
+        "desc": "Mikhail's faithful servant. Likes bellyrubs and apples.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

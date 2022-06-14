@@ -44,15 +44,11 @@
         "learned_skills": [
             [
                 1,
-                "fStrength +2"
+                "Thavma"
             ],
             [
                 1,
-                "Plenitude"
-            ],
-            [
-                1,
-                "Windsweep"
+                "Thavma_Hidden"
             ]
         ],
         "unit_notes": [],

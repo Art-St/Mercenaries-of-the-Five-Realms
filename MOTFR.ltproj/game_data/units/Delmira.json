@@ -32,7 +32,12 @@
             "MOV": 0
         },
         "starting_items": [],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Hastemarche"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

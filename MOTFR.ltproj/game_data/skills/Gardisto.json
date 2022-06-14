@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Gardisto",
+        "name": "Gardisto",
+        "desc": "If unit is adjacent to an ally, after combat inflicts Hit-30, Dmg-2 on foes that are not targeting unit.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            2,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "death_tether",
+                null
+            ],
+            [
+                "give_status_after_combat",
+                "Gardisto_ChildEffect"
+            ],
+            [
+                "condition",
+                "len(target_system.get_adj_allies(unit)) > 0"
+            ]
+        ]
+    }
+]

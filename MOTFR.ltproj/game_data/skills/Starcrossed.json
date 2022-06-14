@@ -2,32 +2,40 @@
     {
         "nid": "Starcrossed",
         "name": "Starcrossed",
-        "desc": "Inflicts Hit/Avo -15. Also inflicts Hit/Avo -20 on nearby enemies",
-        "icon_nid": "Skills",
+        "desc": "Inflicts Hit/Avo-30 on unit, allies and foe during direct combat. Inflicts Hit/Avo-15 on allies and foes within 3 spaces of unit.",
+        "icon_nid": "All_Icons",
         "icon_index": [
-            0,
-            1
+            1,
+            43
         ],
         "components": [
             [
-                "aura",
-                "Canto"
-            ],
-            [
-                "hit",
-                -15
-            ],
-            [
-                "avoid",
-                -15
-            ],
-            [
-                "negative",
-                null
-            ],
-            [
                 "class_skill",
                 null
+            ],
+            [
+                "aura",
+                "Starcrossed_AuraEffect"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "unit"
+            ],
+            [
+                "dynamic_accuracy",
+                "-30 if utils.calculate_distance(unit.position, target.position) == 1 else -15"
+            ],
+            [
+                "dynamic_avoid",
+                "-30 if utils.calculate_distance(unit.position, target.position) == 1 else -15"
+            ],
+            [
+                "crit",
+                -10
             ]
         ]
     }

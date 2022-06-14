@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Capture System_Capturee Checker",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "loop_units",
+                [
+                    "[unit.nid for unit in game.units if unit.position]",
+                    "Capture System_Capturee Killer (Global Capture System_Capturee Killer)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

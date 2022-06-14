@@ -18,10 +18,6 @@
                 1
             ],
             [
-                "spell",
-                null
-            ],
-            [
                 "target_tile",
                 null
             ],
@@ -32,10 +28,6 @@
             [
                 "event_on_hit",
                 "Global Summon Arachne"
-            ],
-            [
-                "exp",
-                35
             ],
             [
                 "mana_cost",

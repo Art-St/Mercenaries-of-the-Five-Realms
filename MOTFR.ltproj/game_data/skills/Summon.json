@@ -1,21 +1,25 @@
 [
     {
         "nid": "Summon",
-        "name": "Invoke",
-        "desc": "Command Skill. Invokes the soul of a warrior to assist you in combat.",
-        "icon_nid": "Skills",
+        "name": "Summon",
+        "desc": "Brings forth a familiar.",
+        "icon_nid": "All_Icons",
         "icon_index": [
-            9,
-            0
+            6,
+            46
         ],
         "components": [
             [
-                "ability",
-                "Summon"
-            ],
-            [
                 "class_skill",
                 null
+            ],
+            [
+                "ability",
+                "Summon_Gargoyle"
+            ],
+            [
+                "exp_multiplier",
+                0
             ]
         ]
     }

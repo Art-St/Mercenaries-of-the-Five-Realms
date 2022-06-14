@@ -18,10 +18,6 @@
                 1
             ],
             [
-                "spell",
-                null
-            ],
-            [
                 "target_tile",
                 null
             ],
@@ -34,8 +30,8 @@
                 "Global Summon Gargoyle"
             ],
             [
-                "exp",
-                35
+                "spell",
+                null
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Miracle",
         "name": "Miracle",
-        "desc": "Once per chapter, if this unit would die, instead they survive with 1 HP.",
+        "desc": "May save a unit from certain death. (Luck%)",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -10,12 +10,22 @@
         ],
         "components": [
             [
-                "miracle",
-                null
+                "defense_proc",
+                "MiracleEffect"
             ],
             [
-                "class_skill",
-                null
+                "proc_rate",
+                "CRIT_AVOID"
+            ],
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "T",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ]
+                ]
             ]
         ]
     }
