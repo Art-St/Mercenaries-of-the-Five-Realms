@@ -49,7 +49,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "A+",
+                "support_rank": "S",
                 "damage": 2.0,
                 "resist": 0.0,
                 "accuracy": 10.0,
@@ -105,7 +105,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "A+",
+                "support_rank": "S",
                 "damage": 0.0,
                 "resist": 2.0,
                 "accuracy": 0.0,
@@ -161,7 +161,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "A+",
+                "support_rank": "S",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 10.0,
@@ -217,7 +217,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "A+",
+                "support_rank": "S",
                 "damage": 2.0,
                 "resist": 2.0,
                 "accuracy": 10.0,
@@ -273,7 +273,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "A+",
+                "support_rank": "S",
                 "damage": 2.0,
                 "resist": 0.0,
                 "accuracy": 0.0,
@@ -329,7 +329,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "C",
+                "support_rank": "S",
                 "damage": 0.0,
                 "resist": 2.0,
                 "accuracy": 10.0,
@@ -385,7 +385,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "C",
+                "support_rank": "S",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 20.0,
@@ -441,7 +441,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "A+",
+                "support_rank": "S",
                 "damage": 0.0,
                 "resist": 2.0,
                 "accuracy": 0.0,
