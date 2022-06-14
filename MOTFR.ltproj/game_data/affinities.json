@@ -13,7 +13,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Grants increased attack power, acccuracy, critical rate and attack speed.",
+        "desc": "Blessing ablaze. Those close to this unit may find newfound shaper eyesight, power and agility.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -69,7 +69,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Grants increased defense, avoid, crit rate, and crit avoid.",
+        "desc": "Blessed by thunder. Those close to this unit may gain newfound endurance, luck and evasion.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -125,7 +125,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Grants increased might, accuracy, crit rate, and crit avoid.",
+        "desc": "Blessing of the wind. Those close to this unit may find new sharper eyesight and luck.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -181,7 +181,7 @@
     {
         "nid": "Water",
         "name": "Water",
-        "desc": "Grants increased defense, accuracy, avoid, and crit avoid.",
+        "desc": "Blessing of the sea. Those close to this unit may find  the resilience of the ice and as flowing as the sea.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -237,7 +237,7 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Grants Attack power, Avoid, Critical Rate and Critical Evade to support partners.",
+        "desc": "Innate Darkness. Those close to this unit may find power and luck beyond expectation.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -293,7 +293,7 @@
     {
         "nid": "Light",
         "name": "Light",
-        "desc": "Grants increased defense, accuracy, crit rate, and crit evade.",
+        "desc": "Blessing of the Mother. A close bond with this unit may give endurance and greater luck.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -349,7 +349,7 @@
     {
         "nid": "Heaven",
         "name": "Heaven",
-        "desc": "Grants increased attack, defense, avoid, and crit avoid.",
+        "desc": "Draconic blessing. A close bond with this unit may provide honed instincts and luck.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -405,7 +405,7 @@
     {
         "nid": "Earth",
         "name": "Earth",
-        "desc": "Grants defense, avoid and attack speed",
+        "desc": "Blessing of Gaia. Those close to this unit may gain newfound evasiveness, endurance and agility.",
         "bonus": [
             {
                 "support_rank": "C",
