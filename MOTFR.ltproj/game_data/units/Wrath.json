@@ -31,11 +31,20 @@
             "CON": 0,
             "MOV": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ],
+            [
+                "Silver Axe",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,
-                "Personal Skills"
+                "Swordgift"
             ]
         ],
         "unit_notes": [],

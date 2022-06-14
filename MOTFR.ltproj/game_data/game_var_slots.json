@@ -1,6 +1,6 @@
 [
     {
-        "nid": "New Slot",
-        "desc": null
+        "nid": "UnitsWhoHaveActed",
+        "desc": "Tracks how many units have acted"
     }
 ]

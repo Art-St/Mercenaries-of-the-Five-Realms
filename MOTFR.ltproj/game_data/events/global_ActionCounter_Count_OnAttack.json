@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ActionCounter_Count_OnAttack",
+        "trigger": "combat_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "inc_game_var",
+                [
+                    "UnitsWhoHaveActed",
+                    "",
+                    "FLAG(no_warn)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Thavma",
+        "name": "Thavma",
+        "desc": "Grants Miracle to adjacent allies.\nIf unit is adjacent to any ally, grants Hit/Crit/Avo + 15 to unit and allies.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Thavma_AuraEffect"
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if target_system.get_adj_allies(unit) else 0"
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "15 if target_system.get_adj_allies(unit) else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "15 if target_system.get_adj_allies(unit) else 0"
+            ]
+        ]
+    }
+]

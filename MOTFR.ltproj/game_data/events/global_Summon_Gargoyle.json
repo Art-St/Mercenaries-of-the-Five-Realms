@@ -28,7 +28,9 @@
                 "autolevel_to",
                 [
                     "Victoria",
-                    "{eval:unit.get_internal_level()}"
+                    "{eval:unit.level}",
+                    "dynamic",
+                    "FLAG(hidden)"
                 ]
             ],
             [
@@ -36,16 +38,146 @@
                 []
             ],
             [
+                "if",
+                [
+                    "{eval:unit.get_internal_level()} < 8"
+                ]
+            ],
+            [
                 "make_generic",
                 [
                     "Victoria",
                     "Gargoyle",
-                    "{eval:unit.get_internal_level()}",
+                    "{eval:unit.level}",
                     "player",
                     "",
-                    "Monster",
+                    "Victoria",
                     "",
                     "Iron Lance"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{eval:unit}",
+                    "40"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.get_internal_level()} < 15 and {eval:unit.get_internal_level()} > 7"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "Victoria",
+                    "Gargoyle",
+                    "{eval:unit.level}",
+                    "player",
+                    "",
+                    "Victoria",
+                    "",
+                    "Javelin"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{eval:unit}",
+                    "35"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.get_internal_level()} < 24 and {eval:unit.get_internal_level()} > 14"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "Victoria",
+                    "Deathgoyle",
+                    "{eval:unit.level}",
+                    "player",
+                    "",
+                    "Victoria",
+                    "",
+                    "Killer Lance"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{eval:unit}",
+                    "27"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.get_internal_level()} < 35 and {eval:unit.get_internal_level()} > 23"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "Victoria",
+                    "Deathgoyle",
+                    "{eval:unit.level}",
+                    "player",
+                    "",
+                    "Victoria",
+                    "",
+                    "Spear"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{eval:unit}",
+                    "20"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.get_internal_level()} > 34"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "Victoria",
+                    "Deathgoyle",
+                    "{eval:unit.level}",
+                    "player",
+                    "",
+                    "Victoria",
+                    "",
+                    "Silver Lance"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{eval:unit}",
+                    "15"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Victoria",
+                    "{eval:unit.level}",
+                    "dynamic",
+                    "FLAG(hidden)"
                 ]
             ],
             [
@@ -56,7 +188,7 @@
                 "add_unit",
                 [
                     "Victoria",
-                    "{position}",
+                    "{eval:target_pos}",
                     "warp"
                 ]
             ],

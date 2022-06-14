@@ -78,12 +78,7 @@
             "New Stat": 30,
             "Mana": 30
         },
-        "learned_skills": [
-            [
-                10,
-                "Quadriga"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,

@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Hastemarche",
+        "name": "Hastemarche",
+        "desc": "If unit is the first to act, grants Mov+2, Skl+10 and Str+7.",
+        "icon_nid": "All_Icons",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        7
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "game.game_vars['UnitsWhoHaveActed'] == 0"
+            ]
+        ]
+    }
+]

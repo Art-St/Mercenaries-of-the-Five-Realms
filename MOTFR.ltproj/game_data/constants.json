@@ -213,15 +213,15 @@
     ],
     [
         "exp_curve",
-        0.138
+        0.085
     ],
     [
         "exp_magnitude",
-        4.5
+        31.0
     ],
     [
         "exp_offset",
-        1.5
+        -5.2
     ],
     [
         "kill_multiplier",
@@ -233,27 +233,27 @@
     ],
     [
         "min_exp",
-        20
+        0
     ],
     [
         "default_exp",
-        11
+        0
     ],
     [
         "heal_curve",
-        2.0
+        2.537
     ],
     [
         "heal_magnitude",
-        5
+        9
     ],
     [
         "heal_offset",
-        3.5
+        -10.0
     ],
     [
         "heal_min",
-        5
+        15
     ],
     [
         "dark_sprites",
