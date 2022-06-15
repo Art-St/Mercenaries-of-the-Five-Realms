@@ -1,7 +1,7 @@
 [
     [
         "combat_convos",
-        2
+        0
     ],
     [
         "base_convos",
@@ -17,7 +17,7 @@
     ],
     [
         "bonus_range",
-        3
+        2
     ],
     [
         "growth_range",
@@ -25,7 +25,7 @@
     ],
     [
         "chapter_points",
-        0
+        10
     ],
     [
         "end_turn_points",
@@ -33,7 +33,7 @@
     ],
     [
         "combat_points",
-        1
+        2
     ],
     [
         "interact_points",
@@ -41,7 +41,7 @@
     ],
     [
         "bonus_ally_limit",
-        0
+        3
     ],
     [
         "rank_limit",
@@ -57,7 +57,7 @@
     ],
     [
         "point_limit_per_chapter",
-        0
+        99
     ],
     [
         "rank_limit_per_chapter",
