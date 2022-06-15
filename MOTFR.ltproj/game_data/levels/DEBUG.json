@@ -26,7 +26,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -56,7 +56,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -82,7 +82,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -112,7 +112,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 10,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -214,7 +214,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Mage",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [

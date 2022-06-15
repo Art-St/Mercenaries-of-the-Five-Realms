@@ -5,7 +5,7 @@
         "desc": "A farmgirl from Belhaven.\nSnarky and easily annoyed.",
         "variant": "",
         "level": 7,
-        "klass": "Archer",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 23,

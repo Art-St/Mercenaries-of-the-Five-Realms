@@ -5,7 +5,7 @@
         "desc": "Kindhearted and brave man from Belhaven. \nSpends too much time in the sun",
         "variant": "",
         "level": 9,
-        "klass": "Mercenary",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 30,

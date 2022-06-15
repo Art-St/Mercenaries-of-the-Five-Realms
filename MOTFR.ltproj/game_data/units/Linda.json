@@ -5,7 +5,7 @@
         "desc": "",
         "variant": null,
         "level": 1,
-        "klass": "Necromancer",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 18,

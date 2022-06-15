@@ -5,7 +5,7 @@
         "desc": "",
         "variant": null,
         "level": 1,
-        "klass": "Berserker",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 24,

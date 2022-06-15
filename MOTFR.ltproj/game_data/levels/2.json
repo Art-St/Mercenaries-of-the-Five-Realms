@@ -26,7 +26,7 @@
                 "nid": "TopBandit",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -48,7 +48,7 @@
                 "nid": "BoneBuddy",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -70,7 +70,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -92,7 +92,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -118,7 +118,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 1,
-                "klass": "Archer",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -140,7 +140,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -162,7 +162,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [

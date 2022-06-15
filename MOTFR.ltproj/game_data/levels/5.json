@@ -28,7 +28,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -50,7 +50,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 5,
-                "klass": "Archer",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -72,7 +72,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -94,7 +94,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 6,
-                "klass": "Mercenary",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -116,7 +116,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 5,
-                "klass": "Fighter",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -138,7 +138,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 5,
-                "klass": "Archer",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -160,7 +160,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -182,7 +182,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -204,7 +204,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -226,7 +226,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -248,7 +248,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -270,7 +270,7 @@
                 "nid": "112",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -292,7 +292,7 @@
                 "nid": "113",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -314,7 +314,7 @@
                 "nid": "114",
                 "variant": null,
                 "level": 4,
-                "klass": "Archer",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -336,7 +336,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 4,
-                "klass": "Fighter",
+                "klass": "Citizen",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -358,7 +358,7 @@
                 "nid": "116",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -377,7 +377,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -396,7 +396,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -415,7 +415,7 @@
                 "nid": "119",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -434,7 +434,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -453,7 +453,7 @@
                 "nid": "121",
                 "variant": null,
                 "level": 5,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Bandit",
                 "starting_items": [
                     [

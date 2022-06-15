@@ -5,7 +5,7 @@
         "desc": "A passionate young mage from Taelnir.\nHotheaded and chaotic.",
         "variant": "",
         "level": 3,
-        "klass": "Mage",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 24,

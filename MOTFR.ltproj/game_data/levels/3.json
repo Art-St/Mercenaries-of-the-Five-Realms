@@ -28,7 +28,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -50,7 +50,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -72,7 +72,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -94,7 +94,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -120,7 +120,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -146,7 +146,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -172,7 +172,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 2,
-                "klass": "Mercenary",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -198,7 +198,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 4,
-                "klass": "Archer",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -220,7 +220,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 4,
-                "klass": "Thief",
+                "klass": "Citizen",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -242,7 +242,7 @@
                 "nid": "Wall1",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall25",
+                "klass": "Citizen",
                 "faction": "Wall",
                 "starting_items": [],
                 "team": "enemy",
@@ -259,7 +259,7 @@
                 "nid": "Wall2",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall25",
+                "klass": "Citizen",
                 "faction": "Wall",
                 "starting_items": [],
                 "team": "enemy",
@@ -276,7 +276,7 @@
                 "nid": "Wall3",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall25",
+                "klass": "Citizen",
                 "faction": "Wall",
                 "starting_items": [],
                 "team": "enemy",

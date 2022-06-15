@@ -5,7 +5,7 @@
         "desc": "A young swordswoman from Lailah.\nAspires to be a great mercenary.",
         "variant": "Yuki",
         "level": 1,
-        "klass": "MyrmidonF",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 22,
