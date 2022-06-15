@@ -2,18 +2,18 @@
     {
         "nid": "None",
         "name": "None",
-        "desc": "No affinity",
+        "desc": "Affinity unknown. Who knows if anything will appen at all when sharing a bond with this unit.",
         "bonus": [],
-        "icon_nid": "",
+        "icon_nid": "affnities tellius",
         "icon_index": [
-            0,
+            8,
             0
         ]
     },
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Blessing ablaze. Those close to this unit may find newfound shaper eyesight, power and agility.",
+        "desc": "Blessing ablaze. A close bond with unit will provide honed senses, power and agility.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -69,7 +69,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Blessed by thunder. Those close to this unit may gain newfound endurance, luck and evasion.",
+        "desc": "Thunder's blessing. Those close to this unit may gain newfound endurance, luck and evasion.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -125,7 +125,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Blessing of the wind. Those close to this unit may find new sharper eyesight and luck.",
+        "desc": "Wind's blessing. Those close to this unit may find new sharper eyesight and luck.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -181,7 +181,7 @@
     {
         "nid": "Water",
         "name": "Water",
-        "desc": "Blessing of the sea. Those close to this unit may find  the resilience of the ice and as flowing as the sea.",
+        "desc": "Sea's blessing. Sharing a close bond with this unit will award with the might of the sea.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -237,7 +237,7 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Innate Darkness. Those close to this unit may find power and luck beyond expectation.",
+        "desc": "Innate darkness. Those close to this unit may find power and luck beyond expectation.",
         "bonus": [
             {
                 "support_rank": "C",
@@ -356,8 +356,8 @@
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 5.0,
-                "avoid": 5.0,
-                "crit": 0.0,
+                "avoid": 0.0,
+                "crit": 1.0,
                 "dodge": 2.5,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
@@ -367,8 +367,8 @@
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 10.0,
-                "avoid": 10.0,
-                "crit": 0.0,
+                "avoid": 0.0,
+                "crit": 3.0,
                 "dodge": 5.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
@@ -378,8 +378,8 @@
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 15.0,
-                "avoid": 15.0,
-                "crit": 0.0,
+                "avoid": 5.0,
+                "crit": 5.0,
                 "dodge": 7.5,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
@@ -389,8 +389,8 @@
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 20.0,
-                "avoid": 20.0,
-                "crit": 0.0,
+                "avoid": 7.5,
+                "crit": 10.0,
                 "dodge": 10.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
@@ -405,7 +405,7 @@
     {
         "nid": "Earth",
         "name": "Earth",
-        "desc": "Blessing of Gaia. Those close to this unit may gain newfound evasiveness, endurance and agility.",
+        "desc": "Gaia's blessing. A close bond with this unit may award with evasiveness, endurance and agility.",
         "bonus": [
             {
                 "support_rank": "C",
