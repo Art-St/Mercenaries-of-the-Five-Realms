@@ -1,9 +1,9 @@
 [
     {
-        "nid": "Gargoyle",
+        "nid": "LordF",
         "weapon_anims": [
             {
-                "nid": "Lance",
+                "nid": "Sword",
                 "poses": [
                     [
                         "Attack",
@@ -12,130 +12,83 @@
                                 "frame",
                                 [
                                     6,
-                                    "Lance_000"
+                                    "Sword_000"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    6,
-                                    "Lance_001"
+                                    3,
+                                    "Sword_001"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    6,
-                                    "Lance_002"
+                                    3,
+                                    "Sword_002"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    11,
-                                    "Lance_003"
+                                    3,
+                                    "Sword_003"
                                 ]
                             ],
                             [
                                 "sound",
                                 [
-                                    "Heavy Wing Flap"
+                                    "Weapon Click"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_004"
+                                    1,
+                                    "Sword_003"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    6,
-                                    "Lance_005"
+                                    12,
+                                    "Sword_004"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    8,
-                                    "Lance_006"
+                                    3,
+                                    "Sword_005"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    6,
-                                    "Lance_007"
+                                    3,
+                                    "Sword_006"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    6,
-                                    "Lance_008"
+                                    3,
+                                    "Sword_007"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    7,
-                                    "Lance_009"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Heavy Wing Flap"
+                                    3,
+                                    "Sword_008"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    6,
-                                    "Lance_010"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_011"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    11,
-                                    "Lance_012"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Weapon Pull"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_013"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    20,
-                                    "Lance_014"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    7,
-                                    "Lance_015"
+                                    3,
+                                    "Sword_009"
                                 ]
                             ],
                             [
@@ -147,8 +100,15 @@
                             [
                                 "frame",
                                 [
+                                    1,
+                                    "Sword_009"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
                                     3,
-                                    "Lance_016"
+                                    "Sword_010"
                                 ]
                             ],
                             [
@@ -166,7 +126,7 @@
                                 "frame",
                                 [
                                     1,
-                                    "Lance_016"
+                                    "Sword_010"
                                 ]
                             ],
                             [
@@ -181,11 +141,18 @@
                                 ]
                             ],
                             [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_010"
+                                ]
+                            ],
+                            [
                                 "dual_frame",
                                 [
-                                    3,
-                                    "Lance_017",
-                                    "Lance_017_under"
+                                    5,
+                                    "Sword_011",
+                                    "Sword_011_under"
                                 ]
                             ],
                             [
@@ -197,69 +164,126 @@
                                 null
                             ],
                             [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_012",
+                                    "Sword_012_under"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_013",
+                                    "Sword_013_under"
+                                ]
+                            ],
+                            [
                                 "wait_for_hit",
                                 [
-                                    "Lance_017",
-                                    "Lance_017_under"
+                                    "Sword_013",
+                                    "Sword_013_under"
                                 ]
                             ],
                             [
                                 "dual_frame",
                                 [
                                     4,
-                                    "Lance_017",
-                                    "Lance_017_under"
+                                    "Sword_013",
+                                    "Sword_013_under"
                                 ]
                             ],
                             [
                                 "dual_frame",
                                 [
-                                    4,
-                                    "Lance_018",
-                                    "Lance_018_under"
+                                    3,
+                                    "Sword_014",
+                                    "Sword_014_under"
                                 ]
                             ],
                             [
                                 "dual_frame",
                                 [
-                                    9,
-                                    "Lance_019",
-                                    "Lance_019_under"
+                                    3,
+                                    "Sword_015",
+                                    "Sword_015_under"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_020"
+                                    3,
+                                    "Sword_016"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_017"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_018"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_019"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_020"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_021"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_022"
+                                ]
+                            ],
+                            [
+                                "sound",
+                                [
+                                    "Step Back 1"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_022"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_023"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     4,
-                                    "Lance_021"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_022"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_023"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_000"
+                                    "Sword_024"
                                 ]
                             ]
                         ]
@@ -271,103 +295,42 @@
                                 "frame",
                                 [
                                     6,
-                                    "Lance_000"
+                                    "Sword_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_025"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_026"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     6,
-                                    "Lance_001"
+                                    "Sword_027"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     6,
-                                    "Lance_002"
+                                    "Sword_028"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    11,
-                                    "Lance_003"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Heavy Wing Flap"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_004"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_005"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_006"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_007"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_008"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    7,
-                                    "Lance_009"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Heavy Wing Flap"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_010"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_011"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    11,
-                                    "Lance_012"
+                                    3,
+                                    "Sword_029"
                                 ]
                             ],
                             [
@@ -379,204 +342,365 @@
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_013"
+                                    1,
+                                    "Sword_029"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     6,
-                                    "Lance_024"
+                                    "Sword_030"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Sword_031"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Sword_032"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Sword_033"
+                                ]
+                            ],
+                            [
+                                "sound",
+                                [
+                                    "Weapon Push"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_033"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    6,
+                                    "Sword_034",
+                                    "Sword_034_under"
+                                ]
+                            ],
+                            [
+                                "enemy_tint",
+                                [
+                                    8,
+                                    [
+                                        255,
+                                        255,
+                                        255
+                                    ]
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    1,
+                                    "Sword_034",
+                                    "Sword_034_under"
+                                ]
+                            ],
+                            [
+                                "foreground_blend",
+                                [
+                                    2,
+                                    [
+                                        248,
+                                        248,
+                                        248
+                                    ]
+                                ]
+                            ],
+                            [
+                                "start_hit",
+                                null
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    2,
+                                    "Sword_035",
+                                    "Sword_035_under"
+                                ]
+                            ],
+                            [
+                                "crit_spark",
+                                null
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_036",
+                                    "Sword_036_under"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_037",
+                                    "Sword_037_under"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_038",
+                                    "Sword_038_under"
+                                ]
+                            ],
+                            [
+                                "wait_for_hit",
+                                [
+                                    "Sword_038",
+                                    "Sword_038_under"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    4,
+                                    "Sword_038",
+                                    "Sword_038_under"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_039"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_040"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_041"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_042"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_021"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_022"
+                                ]
+                            ],
+                            [
+                                "sound",
+                                [
+                                    "Step Back 1"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_022"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_023"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Sword_024"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        "Dodge",
+                        [
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_047"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_048"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_049"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     21,
-                                    "Lance_025"
+                                    "Sword_050"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     3,
-                                    "Lance_026"
+                                    "Sword_051"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    16,
-                                    "Lance_027"
+                                    4,
+                                    "Sword_052"
                                 ]
-                            ],
+                            ]
+                        ]
+                    ],
+                    [
+                        "Stand",
+                        [
                             [
                                 "frame",
                                 [
-                                    20,
-                                    "Lance_025"
+                                    4,
+                                    "Sword_000"
                                 ]
-                            ],
+                            ]
+                        ]
+                    ],
+                    [
+                        "Miss",
+                        [
                             [
                                 "frame",
                                 [
-                                    3,
-                                    "Lance_026"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    16,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    20,
-                                    "Lance_025"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    3,
-                                    "Lance_026"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    16,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_027"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_028"
+                                    6,
+                                    "Sword_000"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     3,
-                                    "Lance_027"
+                                    "Sword_001"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_002"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_003"
+                                ]
+                            ],
+                            [
+                                "sound",
+                                [
+                                    "Weapon Click"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_003"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    12,
+                                    "Sword_004"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_005"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_006"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_007"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_008"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_009"
                                 ]
                             ],
                             [
@@ -588,8 +712,15 @@
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_016"
+                                    1,
+                                    "Sword_009"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_010"
                                 ]
                             ],
                             [
@@ -607,13 +738,13 @@
                                 "frame",
                                 [
                                     1,
-                                    "Lance_016"
+                                    "Sword_010"
                                 ]
                             ],
                             [
-                                "foreground_blend",
+                                "screen_blend",
                                 [
-                                    2,
+                                    4,
                                     [
                                         255,
                                         255,
@@ -622,306 +753,42 @@
                                 ]
                             ],
                             [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_010"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    5,
+                                    "Sword_011",
+                                    "Sword_011_under"
+                                ]
+                            ],
+                            [
+                                "hit_spark",
+                                null
+                            ],
+                            [
                                 "start_hit",
                                 null
                             ],
                             [
                                 "dual_frame",
                                 [
-                                    2,
-                                    "Lance_017",
-                                    "Lance_017_under"
-                                ]
-                            ],
-                            [
-                                "crit_spark",
-                                null
-                            ],
-                            [
-                                "wait_for_hit",
-                                [
-                                    "Lance_017",
-                                    "Lance_017_under"
+                                    3,
+                                    "Sword_012",
+                                    "Sword_012_under"
                                 ]
                             ],
                             [
                                 "dual_frame",
                                 [
                                     4,
-                                    "Lance_017",
-                                    "Lance_017_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    4,
-                                    "Lance_018",
-                                    "Lance_018_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    9,
-                                    "Lance_019",
-                                    "Lance_019_under"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_020"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_021"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_022"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_023"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_000"
-                                ]
-                            ]
-                        ]
-                    ],
-                    [
-                        "Dodge",
-                        [
-                            [
-                                "frame",
-                                [
-                                    1,
-                                    "Lance_000"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_004"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    1,
-                                    "Lance_005"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    27,
-                                    "Lance_007"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_021"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    1,
-                                    "Lance_022"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_000"
-                                ]
-                            ]
-                        ]
-                    ],
-                    [
-                        "Stand",
-                        [
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_000"
-                                ]
-                            ]
-                        ]
-                    ],
-                    [
-                        "Miss",
-                        [
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_000"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_001"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_002"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    11,
-                                    "Lance_003"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Heavy Wing Flap"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_004"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_005"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_006"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_007"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_008"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    7,
-                                    "Lance_009"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Heavy Wing Flap"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_010"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_011"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    11,
-                                    "Lance_012"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Weapon Pull"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_013"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    20,
-                                    "Lance_014"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    7,
-                                    "Lance_015"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Weapon Swing"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_016"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_039"
+                                    "Sword_013",
+                                    "Sword_013_under"
                                 ]
                             ],
                             [
@@ -929,59 +796,103 @@
                                 null
                             ],
                             [
-                                "frame",
+                                "dual_frame",
                                 [
                                     30,
-                                    "Lance_039"
+                                    "Sword_013",
+                                    "Sword_013_under"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_014",
+                                    "Sword_014_under"
+                                ]
+                            ],
+                            [
+                                "dual_frame",
+                                [
+                                    3,
+                                    "Sword_015",
+                                    "Sword_015_under"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_016"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_017"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_018"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_019"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_020"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_021"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_022"
+                                ]
+                            ],
+                            [
+                                "sound",
+                                [
+                                    "Step Back 1"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Sword_022"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_023"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     4,
-                                    "Lance_040"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    9,
-                                    "Lance_041"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_020"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_021"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_022"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_023"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_000"
+                                    "Sword_024"
                                 ]
                             ]
                         ]
@@ -989,464 +900,776 @@
                 ],
                 "frames": [
                     [
-                        "Lance_000",
+                        "Sword_000",
                         [
                             0,
-                            0,
-                            72,
-                            61
+                            36,
+                            36,
+                            34
                         ],
                         [
-                            111,
-                            43
+                            128,
+                            70
                         ]
                     ],
                     [
-                        "Lance_001",
+                        "Sword_001",
                         [
-                            72,
-                            0,
+                            36,
+                            34,
+                            31,
+                            36
+                        ],
+                        [
+                            132,
+                            68
+                        ]
+                    ],
+                    [
+                        "Sword_002",
+                        [
+                            67,
+                            27,
+                            28,
+                            43
+                        ],
+                        [
+                            135,
+                            61
+                        ]
+                    ],
+                    [
+                        "Sword_003",
+                        [
+                            95,
+                            29,
+                            26,
+                            41
+                        ],
+                        [
+                            136,
+                            63
+                        ]
+                    ],
+                    [
+                        "Sword_004",
+                        [
+                            121,
+                            29,
+                            26,
+                            41
+                        ],
+                        [
+                            136,
+                            63
+                        ]
+                    ],
+                    [
+                        "Sword_005",
+                        [
+                            147,
+                            21,
+                            28,
+                            49
+                        ],
+                        [
+                            135,
+                            55
+                        ]
+                    ],
+                    [
+                        "Sword_006",
+                        [
+                            175,
+                            23,
+                            28,
+                            47
+                        ],
+                        [
+                            135,
+                            57
+                        ]
+                    ],
+                    [
+                        "Sword_007",
+                        [
+                            203,
+                            37,
+                            28,
+                            33
+                        ],
+                        [
+                            135,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_008",
+                        [
+                            231,
+                            39,
+                            27,
+                            31
+                        ],
+                        [
+                            135,
+                            72
+                        ]
+                    ],
+                    [
+                        "Sword_009",
+                        [
+                            258,
+                            39,
+                            29,
+                            31
+                        ],
+                        [
+                            132,
+                            72
+                        ]
+                    ],
+                    [
+                        "Sword_010",
+                        [
+                            287,
+                            40,
                             62,
+                            30
+                        ],
+                        [
+                            99,
                             73
+                        ]
+                    ],
+                    [
+                        "Sword_011",
+                        [
+                            349,
+                            42,
+                            49,
+                            28
+                        ],
+                        [
+                            92,
+                            76
+                        ]
+                    ],
+                    [
+                        "Sword_011_under",
+                        [
+                            398,
+                            67,
+                            6,
+                            3
+                        ],
+                        [
+                            86,
+                            85
+                        ]
+                    ],
+                    [
+                        "Sword_012",
+                        [
+                            404,
+                            43,
+                            48,
+                            27
+                        ],
+                        [
+                            92,
+                            77
+                        ]
+                    ],
+                    [
+                        "Sword_012_under",
+                        [
+                            452,
+                            67,
+                            6,
+                            3
+                        ],
+                        [
+                            86,
+                            85
+                        ]
+                    ],
+                    [
+                        "Sword_013",
+                        [
+                            458,
+                            43,
+                            48,
+                            27
+                        ],
+                        [
+                            92,
+                            77
+                        ]
+                    ],
+                    [
+                        "Sword_013_under",
+                        [
+                            506,
+                            67,
+                            6,
+                            3
+                        ],
+                        [
+                            86,
+                            85
+                        ]
+                    ],
+                    [
+                        "Sword_014",
+                        [
+                            512,
+                            42,
+                            47,
+                            28
+                        ],
+                        [
+                            92,
+                            76
+                        ]
+                    ],
+                    [
+                        "Sword_014_under",
+                        [
+                            559,
+                            67,
+                            6,
+                            3
+                        ],
+                        [
+                            86,
+                            84
+                        ]
+                    ],
+                    [
+                        "Sword_015",
+                        [
+                            565,
+                            41,
+                            46,
+                            29
+                        ],
+                        [
+                            92,
+                            75
+                        ]
+                    ],
+                    [
+                        "Sword_015_under",
+                        [
+                            611,
+                            67,
+                            6,
+                            3
+                        ],
+                        [
+                            86,
+                            84
+                        ]
+                    ],
+                    [
+                        "Sword_016",
+                        [
+                            617,
+                            37,
+                            33,
+                            33
+                        ],
+                        [
+                            102,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_017",
+                        [
+                            650,
+                            36,
+                            28,
+                            34
                         ],
                         [
                             106,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_018",
+                        [
+                            678,
+                            36,
+                            28,
+                            34
+                        ],
+                        [
+                            104,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_019",
+                        [
+                            706,
+                            37,
+                            28,
+                            33
+                        ],
+                        [
+                            104,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_020",
+                        [
+                            734,
+                            39,
+                            28,
+                            31
+                        ],
+                        [
+                            104,
+                            73
+                        ]
+                    ],
+                    [
+                        "Sword_021",
+                        [
+                            762,
+                            30,
+                            24,
+                            40
+                        ],
+                        [
+                            113,
+                            64
+                        ]
+                    ],
+                    [
+                        "Sword_022",
+                        [
+                            786,
+                            30,
+                            24,
+                            40
+                        ],
+                        [
+                            126,
+                            64
+                        ]
+                    ],
+                    [
+                        "Sword_023",
+                        [
+                            810,
+                            37,
+                            37,
+                            33
+                        ],
+                        [
+                            128,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_024",
+                        [
+                            847,
+                            36,
+                            36,
+                            34
+                        ],
+                        [
+                            128,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_025",
+                        [
+                            883,
+                            36,
+                            37,
+                            34
+                        ],
+                        [
+                            127,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_026",
+                        [
+                            920,
+                            44,
+                            43,
+                            26
+                        ],
+                        [
+                            127,
+                            78
+                        ]
+                    ],
+                    [
+                        "Sword_027",
+                        [
+                            963,
+                            44,
+                            48,
+                            26
+                        ],
+                        [
+                            127,
+                            78
+                        ]
+                    ],
+                    [
+                        "Sword_028",
+                        [
+                            1011,
+                            42,
+                            48,
+                            28
+                        ],
+                        [
+                            127,
+                            76
+                        ]
+                    ],
+                    [
+                        "Sword_029",
+                        [
+                            1059,
+                            43,
+                            47,
+                            27
+                        ],
+                        [
+                            128,
+                            77
+                        ]
+                    ],
+                    [
+                        "Sword_030",
+                        [
+                            1106,
+                            0,
+                            28,
+                            70
+                        ],
+                        [
+                            129,
+                            34
+                        ]
+                    ],
+                    [
+                        "Sword_031",
+                        [
+                            1134,
+                            30,
+                            31,
+                            40
+                        ],
+                        [
+                            125,
                             31
                         ]
                     ],
                     [
-                        "Lance_002",
+                        "Sword_032",
                         [
-                            134,
-                            0,
-                            62,
-                            72
-                        ],
-                        [
-                            106,
-                            32
-                        ]
-                    ],
-                    [
-                        "Lance_003",
-                        [
-                            196,
-                            0,
-                            66,
-                            69
-                        ],
-                        [
-                            106,
-                            35
-                        ]
-                    ],
-                    [
-                        "Lance_004",
-                        [
-                            262,
-                            0,
-                            72,
-                            86
-                        ],
-                        [
-                            111,
-                            18
-                        ]
-                    ],
-                    [
-                        "Lance_005",
-                        [
-                            334,
-                            0,
-                            70,
-                            86
-                        ],
-                        [
-                            114,
-                            18
-                        ]
-                    ],
-                    [
-                        "Lance_006",
-                        [
-                            404,
-                            0,
-                            68,
-                            90
-                        ],
-                        [
-                            114,
-                            14
-                        ]
-                    ],
-                    [
-                        "Lance_007",
-                        [
-                            472,
-                            0,
-                            71,
-                            93
-                        ],
-                        [
-                            114,
-                            11
-                        ]
-                    ],
-                    [
-                        "Lance_008",
-                        [
-                            543,
-                            0,
-                            66,
-                            100
-                        ],
-                        [
-                            114,
-                            4
-                        ]
-                    ],
-                    [
-                        "Lance_009",
-                        [
-                            609,
-                            0,
-                            66,
-                            104
-                        ],
-                        [
-                            114,
-                            0
-                        ]
-                    ],
-                    [
-                        "Lance_010",
-                        [
-                            675,
-                            0,
-                            70,
-                            93
-                        ],
-                        [
-                            114,
-                            11
-                        ]
-                    ],
-                    [
-                        "Lance_011",
-                        [
-                            745,
-                            0,
-                            69,
-                            96
-                        ],
-                        [
-                            114,
-                            8
-                        ]
-                    ],
-                    [
-                        "Lance_012",
-                        [
-                            814,
-                            0,
-                            71,
-                            99
-                        ],
-                        [
-                            114,
-                            5
-                        ]
-                    ],
-                    [
-                        "Lance_013",
-                        [
-                            885,
-                            0,
-                            78,
-                            104
-                        ],
-                        [
-                            120,
-                            0
-                        ]
-                    ],
-                    [
-                        "Lance_014",
-                        [
-                            963,
-                            0,
-                            75,
-                            104
+                            1165,
+                            37,
+                            30,
+                            33
                         ],
                         [
                             122,
-                            0
+                            29
                         ]
                     ],
                     [
-                        "Lance_015",
-                        [
-                            1038,
-                            0,
-                            76,
-                            104
-                        ],
-                        [
-                            119,
-                            0
-                        ]
-                    ],
-                    [
-                        "Lance_016",
+                        "Sword_033",
                         [
                             0,
-                            104,
-                            90,
-                            90
-                        ],
-                        [
-                            94,
-                            14
-                        ]
-                    ],
-                    [
-                        "Lance_017",
-                        [
-                            90,
-                            104,
-                            68,
-                            86
-                        ],
-                        [
-                            95,
-                            18
-                        ]
-                    ],
-                    [
-                        "Lance_017_under",
-                        [
-                            158,
-                            104,
-                            13,
-                            11
-                        ],
-                        [
-                            87,
-                            80
-                        ]
-                    ],
-                    [
-                        "Lance_018",
-                        [
-                            171,
-                            104,
-                            56,
-                            90
-                        ],
-                        [
-                            82,
-                            14
-                        ]
-                    ],
-                    [
-                        "Lance_018_under",
-                        [
-                            227,
-                            104,
-                            13,
-                            11
-                        ],
-                        [
-                            87,
-                            80
-                        ]
-                    ],
-                    [
-                        "Lance_019",
-                        [
-                            240,
-                            104,
-                            56,
-                            89
-                        ],
-                        [
-                            80,
-                            15
-                        ]
-                    ],
-                    [
-                        "Lance_019_under",
-                        [
-                            296,
-                            104,
-                            13,
-                            11
-                        ],
-                        [
-                            87,
-                            80
-                        ]
-                    ],
-                    [
-                        "Lance_020",
-                        [
-                            309,
-                            104,
-                            69,
-                            71
-                        ],
-                        [
-                            87,
-                            33
-                        ]
-                    ],
-                    [
-                        "Lance_021",
-                        [
-                            378,
-                            104,
-                            66,
-                            69
-                        ],
-                        [
-                            106,
-                            35
-                        ]
-                    ],
-                    [
-                        "Lance_022",
-                        [
-                            444,
-                            104,
-                            62,
-                            72
-                        ],
-                        [
-                            106,
-                            32
-                        ]
-                    ],
-                    [
-                        "Lance_023",
-                        [
-                            506,
-                            104,
-                            63,
-                            73
-                        ],
-                        [
-                            105,
-                            31
-                        ]
-                    ],
-                    [
-                        "Lance_024",
-                        [
-                            569,
-                            104,
-                            76,
-                            104
-                        ],
-                        [
-                            120,
-                            0
-                        ]
-                    ],
-                    [
-                        "Lance_025",
-                        [
-                            645,
-                            104,
-                            76,
-                            102
-                        ],
-                        [
-                            119,
-                            2
-                        ]
-                    ],
-                    [
-                        "Lance_026",
-                        [
-                            721,
-                            104,
-                            77,
-                            97
+                            70,
+                            35,
+                            54
                         ],
                         [
                             118,
-                            7
+                            21
                         ]
                     ],
                     [
-                        "Lance_027",
+                        "Sword_034",
                         [
-                            798,
-                            104,
+                            35,
                             77,
-                            101
+                            34,
+                            47
                         ],
                         [
-                            121,
-                            3
+                            92,
+                            58
                         ]
                     ],
                     [
-                        "Lance_028",
+                        "Sword_034_under",
                         [
-                            875,
-                            104,
-                            77,
-                            101
+                            69,
+                            94,
+                            7,
+                            30
                         ],
                         [
-                            121,
-                            3
+                            85,
+                            75
                         ]
                     ],
                     [
-                        "Lance_039",
+                        "Sword_035",
                         [
-                            952,
-                            104,
                             76,
-                            86
+                            89,
+                            33,
+                            35
+                        ],
+                        [
+                            92,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_035_under",
+                        [
+                            109,
+                            121,
+                            5,
+                            3
                         ],
                         [
                             87,
-                            18
+                            101
                         ]
                     ],
                     [
-                        "Lance_040",
+                        "Sword_036",
                         [
-                            1028,
-                            104,
-                            56,
-                            90
+                            114,
+                            93,
+                            38,
+                            31
                         ],
                         [
-                            82,
-                            14
+                            92,
+                            74
                         ]
                     ],
                     [
-                        "Lance_041",
+                        "Sword_036_under",
                         [
-                            1084,
-                            104,
-                            56,
-                            89
+                            152,
+                            121,
+                            5,
+                            3
                         ],
                         [
-                            80,
-                            15
+                            87,
+                            101
+                        ]
+                    ],
+                    [
+                        "Sword_037",
+                        [
+                            157,
+                            99,
+                            37,
+                            25
+                        ],
+                        [
+                            92,
+                            80
+                        ]
+                    ],
+                    [
+                        "Sword_037_under",
+                        [
+                            194,
+                            121,
+                            5,
+                            3
+                        ],
+                        [
+                            87,
+                            101
+                        ]
+                    ],
+                    [
+                        "Sword_038",
+                        [
+                            199,
+                            99,
+                            30,
+                            25
+                        ],
+                        [
+                            92,
+                            80
+                        ]
+                    ],
+                    [
+                        "Sword_038_under",
+                        [
+                            229,
+                            121,
+                            5,
+                            3
+                        ],
+                        [
+                            87,
+                            101
+                        ]
+                    ],
+                    [
+                        "Sword_039",
+                        [
+                            234,
+                            91,
+                            33,
+                            33
+                        ],
+                        [
+                            90,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_040",
+                        [
+                            267,
+                            90,
+                            28,
+                            34
+                        ],
+                        [
+                            99,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_041",
+                        [
+                            295,
+                            90,
+                            28,
+                            34
+                        ],
+                        [
+                            101,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_042",
+                        [
+                            323,
+                            91,
+                            28,
+                            33
+                        ],
+                        [
+                            103,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_047",
+                        [
+                            351,
+                            90,
+                            31,
+                            34
+                        ],
+                        [
+                            139,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_048",
+                        [
+                            382,
+                            90,
+                            31,
+                            34
+                        ],
+                        [
+                            143,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_049",
+                        [
+                            413,
+                            90,
+                            31,
+                            34
+                        ],
+                        [
+                            143,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_050",
+                        [
+                            444,
+                            90,
+                            31,
+                            34
+                        ],
+                        [
+                            143,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_051",
+                        [
+                            475,
+                            90,
+                            33,
+                            34
+                        ],
+                        [
+                            139,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_052",
+                        [
+                            508,
+                            89,
+                            33,
+                            35
+                        ],
+                        [
+                            134,
+                            70
                         ]
                     ]
                 ]
             },
             {
-                "nid": "RangedLance",
+                "nid": "MagicSword",
                 "poses": [
                     [
                         "Attack",
@@ -1455,89 +1678,27 @@
                                 "frame",
                                 [
                                     6,
-                                    "Lance_000"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_001"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    10,
-                                    "Lance_002"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_003"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_029"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_030"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_031"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    30,
-                                    "Lance_032"
+                                    "Sword_000"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     3,
-                                    "Lance_033"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Weapon Push"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_034"
+                                    "Sword_043"
                                 ]
                             ],
                             [
                                 "spell",
                                 [
-                                    "Javelin"
+                                    null
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    1,
-                                    "Lance_035"
+                                    3,
+                                    "Sword_044"
                                 ]
                             ],
                             [
@@ -1548,7 +1709,7 @@
                                 "frame",
                                 [
                                     4,
-                                    "Lance_035"
+                                    "Sword_044"
                                 ]
                             ],
                             [
@@ -1559,35 +1720,14 @@
                                 "frame",
                                 [
                                     4,
-                                    "Lance_035"
+                                    "Sword_044"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_029"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_002"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    12,
-                                    "Lance_001"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_000"
+                                    4,
+                                    "Sword_023"
                                 ]
                             ]
                         ]
@@ -1598,180 +1738,91 @@
                             [
                                 "frame",
                                 [
-                                    7,
-                                    "Lance_000"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_036"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_037"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    5,
-                                    "Lance_038"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_036"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_037"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    5,
-                                    "Lance_038"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_036"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_037"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    5,
-                                    "Lance_038"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_036"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    8,
-                                    "Lance_037"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_038"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_001"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    11,
-                                    "Lance_002"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Heavy Wing Flap"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_003"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_029"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    4,
-                                    "Lance_030"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
                                     6,
-                                    "Lance_031"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    30,
-                                    "Lance_032"
+                                    "Sword_000"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     3,
-                                    "Lance_033"
-                                ]
-                            ],
-                            [
-                                "sound",
-                                [
-                                    "Weapon Push"
+                                    "Sword_043"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
                                     2,
-                                    "Lance_034"
-                                ]
-                            ],
-                            [
-                                "spell",
-                                [
-                                    "Javelin"
+                                    "Sword_044"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    1,
-                                    "Lance_035"
+                                    2,
+                                    "Sword_045"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_046"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_045"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_046"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_045"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_046"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_045"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    2,
+                                    "Sword_046"
+                                ]
+                            ],
+                            [
+                                "spell",
+                                [
+                                    null
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Sword_044"
                                 ]
                             ],
                             [
@@ -1782,7 +1833,7 @@
                                 "frame",
                                 [
                                     4,
-                                    "Lance_035"
+                                    "Sword_044"
                                 ]
                             ],
                             [
@@ -1793,35 +1844,14 @@
                                 "frame",
                                 [
                                     4,
-                                    "Lance_035"
+                                    "Sword_044"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_029"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    6,
-                                    "Lance_002"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    12,
-                                    "Lance_001"
-                                ]
-                            ],
-                            [
-                                "frame",
-                                [
-                                    2,
-                                    "Lance_000"
+                                    4,
+                                    "Sword_043"
                                 ]
                             ]
                         ]
@@ -1833,49 +1863,49 @@
                                 "frame",
                                 [
                                     1,
-                                    "Lance_000"
+                                    "Sword_000"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_004"
+                                    3,
+                                    "Sword_047"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    1,
-                                    "Lance_005"
+                                    3,
+                                    "Sword_048"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    27,
-                                    "Lance_007"
+                                    3,
+                                    "Sword_049"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_021"
+                                    21,
+                                    "Sword_050"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    1,
-                                    "Lance_022"
+                                    3,
+                                    "Sword_051"
                                 ]
                             ],
                             [
                                 "frame",
                                 [
-                                    2,
-                                    "Lance_000"
+                                    4,
+                                    "Sword_052"
                                 ]
                             ]
                         ]
@@ -1887,7 +1917,7 @@
                                 "frame",
                                 [
                                     4,
-                                    "Lance_000"
+                                    "Sword_000"
                                 ]
                             ]
                         ]
@@ -1895,250 +1925,774 @@
                 ],
                 "frames": [
                     [
-                        "Lance_000",
+                        "Sword_000",
                         [
                             0,
-                            0,
-                            72,
-                            61
+                            16,
+                            36,
+                            34
                         ],
                         [
-                            111,
-                            43
+                            128,
+                            70
                         ]
                     ],
                     [
-                        "Lance_001",
+                        "Sword_023",
                         [
-                            72,
-                            0,
-                            62,
-                            73
+                            36,
+                            17,
+                            37,
+                            33
                         ],
+                        [
+                            128,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_043",
+                        [
+                            73,
+                            16,
+                            33,
+                            34
+                        ],
+                        [
+                            132,
+                            70
+                        ]
+                    ],
+                    [
+                        "Sword_044",
                         [
                             106,
-                            31
+                            1,
+                            27,
+                            49
+                        ],
+                        [
+                            138,
+                            55
                         ]
                     ],
                     [
-                        "Lance_002",
+                        "Sword_045",
+                        [
+                            133,
+                            0,
+                            27,
+                            50
+                        ],
+                        [
+                            138,
+                            54
+                        ]
+                    ],
+                    [
+                        "Sword_046",
+                        [
+                            160,
+                            1,
+                            27,
+                            49
+                        ],
+                        [
+                            138,
+                            55
+                        ]
+                    ],
+                    [
+                        "Sword_047",
+                        [
+                            187,
+                            16,
+                            31,
+                            34
+                        ],
+                        [
+                            139,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_048",
+                        [
+                            218,
+                            16,
+                            31,
+                            34
+                        ],
+                        [
+                            143,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_049",
+                        [
+                            249,
+                            16,
+                            31,
+                            34
+                        ],
+                        [
+                            143,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_050",
+                        [
+                            280,
+                            16,
+                            31,
+                            34
+                        ],
+                        [
+                            143,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_051",
+                        [
+                            311,
+                            16,
+                            33,
+                            34
+                        ],
+                        [
+                            139,
+                            71
+                        ]
+                    ],
+                    [
+                        "Sword_052",
+                        [
+                            344,
+                            15,
+                            33,
+                            35
+                        ],
                         [
                             134,
-                            0,
-                            62,
-                            72
-                        ],
+                            70
+                        ]
+                    ]
+                ]
+            },
+            {
+                "nid": "MagicAnima",
+                "poses": [
+                    [
+                        "Attack",
                         [
-                            106,
-                            32
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Magic_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_001"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_002"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    12,
+                                    "Magic_003"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_004"
+                                ]
+                            ],
+                            [
+                                "spell",
+                                [
+                                    null
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_005"
+                                ]
+                            ],
+                            [
+                                "start_loop",
+                                null
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_006"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_007"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_008"
+                                ]
+                            ],
+                            [
+                                "end_loop",
+                                null
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_009"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_010"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Magic_001"
+                                ]
+                            ]
                         ]
                     ],
                     [
-                        "Lance_003",
+                        "Critical",
                         [
-                            196,
-                            0,
-                            66,
-                            69
-                        ],
-                        [
-                            106,
-                            35
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Magic_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_001"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    12,
+                                    "Magic_011"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Magic_012"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    6,
+                                    "Magic_011"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_012"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_011"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_012"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_011"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_012"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    12,
+                                    "Magic_011"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_013"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    12,
+                                    "Magic_014"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_004"
+                                ]
+                            ],
+                            [
+                                "spell",
+                                [
+                                    null
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_005"
+                                ]
+                            ],
+                            [
+                                "start_loop",
+                                null
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_006"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_007"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_008"
+                                ]
+                            ],
+                            [
+                                "end_loop",
+                                null
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_009"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_010"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Magic_001"
+                                ]
+                            ]
                         ]
                     ],
                     [
-                        "Lance_029",
+                        "Dodge",
                         [
-                            262,
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Magic_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_015"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_016"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_017"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    21,
+                                    "Magic_018"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_019"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Magic_020"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        "Stand",
+                        [
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Magic_000"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "frames": [
+                    [
+                        "Magic_000",
+                        [
                             0,
+                            8,
+                            26,
+                            34
+                        ],
+                        [
+                            138,
+                            70
+                        ]
+                    ],
+                    [
+                        "Magic_001",
+                        [
+                            26,
+                            8,
+                            27,
+                            34
+                        ],
+                        [
+                            138,
+                            70
+                        ]
+                    ],
+                    [
+                        "Magic_002",
+                        [
+                            53,
+                            8,
+                            28,
+                            34
+                        ],
+                        [
+                            137,
+                            70
+                        ]
+                    ],
+                    [
+                        "Magic_003",
+                        [
                             81,
-                            60
-                        ],
-                        [
-                            110,
-                            44
-                        ]
-                    ],
-                    [
-                        "Lance_030",
-                        [
-                            343,
-                            0,
-                            75,
-                            65
-                        ],
-                        [
-                            121,
-                            39
-                        ]
-                    ],
-                    [
-                        "Lance_031",
-                        [
-                            418,
-                            0,
-                            67,
-                            69
-                        ],
-                        [
-                            131,
-                            35
-                        ]
-                    ],
-                    [
-                        "Lance_032",
-                        [
-                            485,
-                            0,
-                            65,
-                            69
-                        ],
-                        [
-                            134,
-                            35
-                        ]
-                    ],
-                    [
-                        "Lance_033",
-                        [
-                            550,
-                            0,
-                            83,
-                            63
-                        ],
-                        [
-                            113,
+                            1,
+                            26,
                             41
+                        ],
+                        [
+                            139,
+                            63
                         ]
                     ],
                     [
-                        "Lance_034",
+                        "Magic_004",
                         [
-                            633,
+                            107,
                             0,
-                            64,
-                            61
+                            31,
+                            42
                         ],
                         [
-                            124,
-                            43
+                            138,
+                            62
                         ]
                     ],
                     [
-                        "Lance_035",
+                        "Magic_005",
                         [
-                            697,
-                            0,
-                            63,
-                            59
+                            138,
+                            8,
+                            39,
+                            34
                         ],
                         [
-                            126,
-                            45
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_036",
+                        "Magic_006",
                         [
-                            760,
-                            0,
-                            70,
-                            61
+                            177,
+                            8,
+                            41,
+                            34
                         ],
                         [
-                            111,
-                            43
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_037",
+                        "Magic_007",
                         [
-                            830,
-                            0,
-                            69,
-                            60
+                            218,
+                            8,
+                            41,
+                            34
                         ],
                         [
-                            111,
-                            44
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_038",
+                        "Magic_008",
                         [
-                            899,
-                            0,
-                            71,
-                            59
+                            259,
+                            8,
+                            40,
+                            34
                         ],
                         [
-                            111,
-                            45
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_004",
+                        "Magic_009",
                         [
-                            970,
-                            0,
-                            72,
-                            86
+                            299,
+                            8,
+                            40,
+                            34
                         ],
                         [
-                            111,
-                            18
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_005",
+                        "Magic_010",
                         [
-                            1042,
-                            0,
-                            70,
-                            86
+                            339,
+                            8,
+                            31,
+                            34
                         ],
                         [
-                            114,
-                            18
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_007",
+                        "Magic_011",
                         [
-                            1112,
-                            0,
-                            71,
-                            93
+                            370,
+                            8,
+                            27,
+                            34
                         ],
                         [
-                            114,
-                            11
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Lance_021",
+                        "Magic_012",
                         [
-                            0,
-                            93,
-                            66,
-                            69
-                        ],
-                        [
-                            106,
+                            397,
+                            7,
+                            28,
                             35
+                        ],
+                        [
+                            138,
+                            69
                         ]
                     ],
                     [
-                        "Lance_022",
+                        "Magic_013",
                         [
-                            66,
-                            93,
-                            62,
-                            72
+                            425,
+                            8,
+                            28,
+                            34
                         ],
                         [
-                            106,
-                            32
+                            137,
+                            70
+                        ]
+                    ],
+                    [
+                        "Magic_014",
+                        [
+                            453,
+                            1,
+                            27,
+                            41
+                        ],
+                        [
+                            138,
+                            63
+                        ]
+                    ],
+                    [
+                        "Magic_015",
+                        [
+                            480,
+                            8,
+                            28,
+                            34
+                        ],
+                        [
+                            142,
+                            71
+                        ]
+                    ],
+                    [
+                        "Magic_016",
+                        [
+                            508,
+                            8,
+                            27,
+                            34
+                        ],
+                        [
+                            147,
+                            71
+                        ]
+                    ],
+                    [
+                        "Magic_017",
+                        [
+                            535,
+                            8,
+                            27,
+                            34
+                        ],
+                        [
+                            147,
+                            71
+                        ]
+                    ],
+                    [
+                        "Magic_018",
+                        [
+                            562,
+                            8,
+                            27,
+                            34
+                        ],
+                        [
+                            147,
+                            71
+                        ]
+                    ],
+                    [
+                        "Magic_019",
+                        [
+                            589,
+                            8,
+                            27,
+                            34
+                        ],
+                        [
+                            145,
+                            71
+                        ]
+                    ],
+                    [
+                        "Magic_020",
+                        [
+                            616,
+                            7,
+                            25,
+                            35
+                        ],
+                        [
+                            142,
+                            70
                         ]
                     ]
                 ]
@@ -2147,75 +2701,67 @@
                 "nid": "Unarmed",
                 "poses": [
                     [
-                        "Stand",
+                        "Dodge",
                         [
                             [
-                                "dual_frame",
+                                "frame",
+                                [
+                                    1,
+                                    "Magic_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_015"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_016"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_017"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    21,
+                                    "Magic_018"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Magic_019"
+                                ]
+                            ],
+                            [
+                                "frame",
                                 [
                                     4,
-                                    "Unarmed_000",
-                                    "Unarmed_000_under"
+                                    "Magic_020"
                                 ]
                             ]
                         ]
                     ],
                     [
-                        "Dodge",
+                        "Stand",
                         [
                             [
-                                "dual_frame",
+                                "frame",
                                 [
-                                    1,
-                                    "Unarmed_000",
-                                    "Unarmed_000_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    2,
-                                    "Unarmed_001",
-                                    "Unarmed_001_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    1,
-                                    "Unarmed_002",
-                                    "Unarmed_002_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    27,
-                                    "Unarmed_003",
-                                    "Unarmed_003_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    2,
-                                    "Unarmed_004",
-                                    "Unarmed_004_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    1,
-                                    "Unarmed_005",
-                                    "Unarmed_005_under"
-                                ]
-                            ],
-                            [
-                                "dual_frame",
-                                [
-                                    2,
-                                    "Unarmed_000",
-                                    "Unarmed_000_under"
+                                    4,
+                                    "Magic_000"
                                 ]
                             ]
                         ]
@@ -2223,159 +2769,94 @@
                 ],
                 "frames": [
                     [
-                        "Unarmed_000",
+                        "Magic_000",
                         [
                             0,
-                            0,
-                            61,
-                            61
+                            1,
+                            26,
+                            34
                         ],
                         [
-                            119,
-                            43
+                            138,
+                            70
                         ]
                     ],
                     [
-                        "Unarmed_000_under",
+                        "Magic_015",
                         [
-                            61,
-                            0,
-                            61,
-                            61
+                            26,
+                            1,
+                            28,
+                            34
                         ],
                         [
-                            119,
-                            43
+                            142,
+                            71
                         ]
                     ],
                     [
-                        "Unarmed_001",
+                        "Magic_016",
                         [
-                            122,
-                            0,
-                            64,
-                            86
+                            54,
+                            1,
+                            27,
+                            34
                         ],
                         [
-                            120,
-                            18
+                            147,
+                            71
                         ]
                     ],
                     [
-                        "Unarmed_001_under",
+                        "Magic_017",
                         [
-                            186,
-                            0,
-                            64,
-                            86
+                            81,
+                            1,
+                            27,
+                            34
                         ],
                         [
-                            120,
-                            18
+                            147,
+                            71
                         ]
                     ],
                     [
-                        "Unarmed_002",
+                        "Magic_018",
                         [
-                            250,
-                            0,
-                            61,
-                            86
+                            108,
+                            1,
+                            27,
+                            34
                         ],
                         [
-                            123,
-                            18
+                            147,
+                            71
                         ]
                     ],
                     [
-                        "Unarmed_002_under",
+                        "Magic_019",
                         [
-                            311,
-                            0,
-                            61,
-                            86
+                            135,
+                            1,
+                            27,
+                            34
                         ],
                         [
-                            123,
-                            18
+                            145,
+                            71
                         ]
                     ],
                     [
-                        "Unarmed_003",
+                        "Magic_020",
                         [
-                            372,
+                            162,
                             0,
-                            66,
-                            93
+                            25,
+                            35
                         ],
                         [
-                            119,
-                            11
-                        ]
-                    ],
-                    [
-                        "Unarmed_003_under",
-                        [
-                            438,
-                            0,
-                            66,
-                            93
-                        ],
-                        [
-                            119,
-                            11
-                        ]
-                    ],
-                    [
-                        "Unarmed_004",
-                        [
-                            504,
-                            0,
-                            32,
-                            48
-                        ],
-                        [
-                            124,
-                            56
-                        ]
-                    ],
-                    [
-                        "Unarmed_004_under",
-                        [
-                            536,
-                            0,
-                            32,
-                            48
-                        ],
-                        [
-                            124,
-                            56
-                        ]
-                    ],
-                    [
-                        "Unarmed_005",
-                        [
-                            568,
-                            0,
-                            48,
-                            63
-                        ],
-                        [
-                            120,
-                            40
-                        ]
-                    ],
-                    [
-                        "Unarmed_005_under",
-                        [
-                            616,
-                            0,
-                            48,
-                            63
-                        ],
-                        [
-                            120,
-                            40
+                            142,
+                            70
                         ]
                     ]
                 ]
@@ -2383,12 +2864,20 @@
         ],
         "palettes": [
             [
-                "Victoria",
-                "Gargoyle0_Victoria"
+                "Zelda",
+                "Lord5_Zelda"
             ],
             [
                 "GenericRed",
-                "Gargoyle0_GenericRed"
+                "Lord5_GenericRed"
+            ],
+            [
+                "GenericGreen",
+                "Lord5_GenericBlue"
+            ],
+            [
+                "GenericBlue",
+                "Lord5_GenericBlue"
             ]
         ]
     }

@@ -1,38 +1,35 @@
 [
     {
-        "nid": "Deathgoyle",
-        "name": "Deathgoyle",
-        "desc": "Caw caw?",
-        "tier": 2,
-        "movement_group": "Fliers",
-        "promotes_from": "Gargoyle",
+        "nid": "LordF",
+        "name": "Lord",
+        "desc": "Nobles attached to a ruling house. Possesses great potential",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
         "turns_into": [],
-        "tags": [
-            "Flying",
-            "Monster"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 26,
-            "STR": 9,
-            "MAG": 1,
-            "SKL": 7,
-            "SPD": 5,
+            "HP": 15,
+            "STR": 1,
+            "MAG": 2,
+            "SKL": 2,
+            "SPD": 2,
             "LCK": 0,
-            "DEF": 6,
+            "DEF": 1,
             "RES": 3,
-            "CON": 20,
-            "MOV": 7
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {
             "HP": 50,
-            "STR": 40,
-            "MAG": 10,
-            "SKL": 50,
-            "SPD": 60,
-            "LCK": 20,
-            "DEF": 50,
-            "RES": 30,
+            "STR": 50,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 30,
+            "DEF": 30,
+            "RES": 45,
             "CON": 0,
             "MOV": 0
         },
@@ -49,38 +46,38 @@
             "MOV": 0
         },
         "promotion": {
-            "HP": 5,
-            "STR": 2,
-            "MAG": 1,
+            "HP": 4,
+            "STR": 3,
+            "MAG": 2,
             "SKL": 2,
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "RES": 1,
+            "RES": 2,
             "CON": 0,
-            "MOV": 2
+            "MOV": 1
         },
         "max_stats": {
-            "HP": 60,
-            "STR": 35,
-            "MAG": 35,
-            "SKL": 35,
-            "SPD": 35,
+            "HP": 40,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
             "LCK": 30,
-            "DEF": 35,
-            "RES": 35,
+            "DEF": 20,
+            "RES": 20,
             "CON": 20,
             "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0
+                true,
+                1
             ],
             "Lance": [
-                true,
-                121
+                false,
+                0
             ],
             "Axe": [
                 false,
@@ -99,8 +96,8 @@
                 0
             ],
             "Anima": [
-                false,
-                0
+                true,
+                1
             ],
             "Dark": [
                 false,
@@ -115,13 +112,13 @@
                 0
             ]
         },
-        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_nid": "Generic Lord (F) Staff {N426}",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Deathgoyle",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "Lord_F",
+        "combat_anim_nid": "LordF",
         "fields": []
     }
 ]
