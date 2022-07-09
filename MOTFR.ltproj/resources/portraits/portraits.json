@@ -144,30 +144,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Jay",
-        "blinking_offset": [
-            24,
-            43
-        ],
-        "smiling_offset": [
-            18,
-            58
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Zelda",
-        "blinking_offset": [
-            26,
-            36
-        ],
-        "smiling_offset": [
-            26,
-            53
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Art",
         "blinking_offset": [
             23,
@@ -177,7 +153,43 @@
             21,
             43
         ],
+        "info_offset": 2
+    },
+    {
+        "nid": "Zelda",
+        "blinking_offset": [
+            25,
+            30
+        ],
+        "smiling_offset": [
+            17,
+            46
+        ],
         "info_offset": 0
+    },
+    {
+        "nid": "Jay",
+        "blinking_offset": [
+            21,
+            37
+        ],
+        "smiling_offset": [
+            21,
+            53
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Yuki",
+        "blinking_offset": [
+            29,
+            33
+        ],
+        "smiling_offset": [
+            16,
+            50
+        ],
+        "info_offset": 4
     },
     {
         "nid": "vulprix",
@@ -228,18 +240,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Yuki",
-        "blinking_offset": [
-            33,
-            33
-        ],
-        "smiling_offset": [
-            20,
-            50
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Wrath",
         "blinking_offset": [
             25,
@@ -249,7 +249,7 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "Ken",
@@ -284,6 +284,66 @@
         "smiling_offset": [
             19,
             42
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Willow",
+        "blinking_offset": [
+            28,
+            29
+        ],
+        "smiling_offset": [
+            28,
+            45
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Orchid",
+        "blinking_offset": [
+            25,
+            25
+        ],
+        "smiling_offset": [
+            25,
+            41
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Alice",
+        "blinking_offset": [
+            19,
+            31
+        ],
+        "smiling_offset": [
+            19,
+            47
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Raine",
+        "blinking_offset": [
+            20,
+            28
+        ],
+        "smiling_offset": [
+            20,
+            44
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ciara",
+        "blinking_offset": [
+            23,
+            30
+        ],
+        "smiling_offset": [
+            18,
+            46
         ],
         "info_offset": 0
     }
