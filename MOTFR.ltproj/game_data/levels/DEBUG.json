@@ -26,7 +26,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "LordF",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -56,7 +56,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "LordF",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -64,7 +64,7 @@
                         true
                     ],
                     [
-                        "Javelin",
+                        "Thunder",
                         false
                     ]
                 ],
@@ -82,11 +82,11 @@
                 "nid": "104",
                 "variant": null,
                 "level": 6,
-                "klass": "Soldier",
+                "klass": "LordF",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Poison Sword",
                         false
                     ],
                     [
@@ -112,11 +112,11 @@
                 "nid": "105",
                 "variant": null,
                 "level": 10,
-                "klass": "Soldier",
+                "klass": "LordF",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Rapier",
                         false
                     ],
                     [
@@ -214,15 +214,15 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Mage",
-                "faction": "Cutthroat",
+                "klass": "LordF",
+                "faction": "Mercs",
                 "starting_items": [
                     [
                         "Fire",
                         false
                     ]
                 ],
-                "team": "enemy",
+                "team": "player",
                 "ai": "None",
                 "ai_group": null,
                 "starting_position": [
@@ -231,6 +231,73 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "LordF",
+                "faction": "Mercs",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    3,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Willow",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    3,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Orchid",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Wrath",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Placeholder",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
